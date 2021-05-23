@@ -1,0 +1,15 @@
+\begin{thebibliography}{KLP11}
+
+\bibitem[KLP11]{5980391}
+Leslie~Pack Kaelbling and Tomás Lozano-Pérez.
+\newblock Hierarchical task and motion planning in the now.
+\newblock In {\em 2011 IEEE International Conference on Robotics and
+  Automation}, pages 1470--1477, 2011.
+ \begin{quotation}\noindent Decomposes TAMP problem and solves in real time
+  based on world's state through execution. Represents actions in world as
+  operation and modifications to world state as fluents. Decomposes operations
+  into weakest precondition subgoals and solves those recursively. This makes
+  order of execution critical! Will only find a plan if the goal state is
+  reachable through some set of operations. Defines goals as conjunctions of
+  fluents (i.e. like Clean(a)). \end{quotation}
+\end{thebibliography}
