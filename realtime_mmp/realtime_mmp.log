@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.1)  23 MAY 2021 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.16)  24 MAY 2021 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -49,18 +49,18 @@ LaTeX Font Info:    ... okay on input line 2.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./realtime_mmp.aux) ) 
 Here is how much of TeX's memory you used:
- 374 strings out of 482854
- 6389 string characters out of 5956882
+ 372 strings out of 482854
+ 6373 string characters out of 5956881
  238480 words of memory out of 5000000
- 15796 multiletter control sequences out of 15000+600000
+ 15794 multiletter control sequences out of 15000+600000
  536039 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,4n,25p,143b,168s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,4n,25p,143b,166s stack positions out of 5000i,500n,10000p,200000b,80000s
 </us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on realtime_mmp.pdf (1 page, 42916 bytes).
+Output written on realtime_mmp.pdf (1 page, 42960 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream

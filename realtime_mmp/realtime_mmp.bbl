@@ -1,8 +1,7 @@
-\begin{thebibliography}{KLP11}
+\begin{thebibliography}{59811}
 
-\bibitem[KLP11]{5980391}
-Leslie~Pack Kaelbling and Tomás Lozano-Pérez.
-\newblock Hierarchical task and motion planning in the now.
+\bibitem[59811]{5980391}
+Hierarchical task and motion planning in the now.
 \newblock In {\em 2011 IEEE International Conference on Robotics and
   Automation}, pages 1470--1477, 2011.
  \begin{quotation}\noindent Decomposes TAMP problem and solves in real time
