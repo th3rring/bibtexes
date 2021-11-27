@@ -1,31 +1,33 @@
 % Encoding: UTF-8
 
 @Article{Dantam_2018,
-  author    = {Neil T Dantam and Zachary K Kingston and Swarat Chaudhuri and Lydia E Kavraki},
-  title     = {An incremental constraint-based framework for task and motion planning},
-  journal   = {The International Journal of Robotics Research},
-  year      = {2018},
-  volume    = {37},
-  number    = {10},
-  pages     = {1134--1151},
-  month     = {mar},
-  doi       = {10.1177/0278364918761570},
-  file      = {:idtmp.pdf:PDF},
-  publisher = {{SAGE} Publications},
+  author     = {Neil T Dantam and Zachary K Kingston and Swarat Chaudhuri and Lydia E Kavraki},
+  journal    = {The International Journal of Robotics Research},
+  title      = {An incremental constraint-based framework for task and motion planning},
+  year       = {2018},
+  month      = {mar},
+  number     = {10},
+  pages      = {1134--1151},
+  volume     = {37},
+  doi        = {10.1177/0278364918761570},
+  file       = {:idtmp.pdf:PDF},
+  publisher  = {{SAGE} Publications},
+  readstatus = {read},
 }
 
 @Article{Lagriffoul_2018,
-  author    = {Fabien Lagriffoul and Neil T. Dantam and Caelan Garrett and Aliakbar Akbari and Siddharth Srivastava and Lydia E. Kavraki},
-  title     = {Platform-Independent Benchmarks for Task and Motion Planning},
-  journal   = {{IEEE} Robotics and Automation Letters},
-  year      = {2018},
-  volume    = {3},
-  number    = {4},
-  pages     = {3765--3772},
-  month     = {oct},
-  doi       = {10.1109/lra.2018.2856701},
-  file      = {:platform_independent_benchmarks_tamp.pdf:PDF},
-  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  author     = {Fabien Lagriffoul and Neil T. Dantam and Caelan Garrett and Aliakbar Akbari and Siddharth Srivastava and Lydia E. Kavraki},
+  journal    = {{IEEE} Robotics and Automation Letters},
+  title      = {Platform-Independent Benchmarks for Task and Motion Planning},
+  year       = {2018},
+  month      = {oct},
+  number     = {4},
+  pages      = {3765--3772},
+  volume     = {3},
+  doi        = {10.1109/lra.2018.2856701},
+  file       = {:platform_independent_benchmarks_tamp.pdf:PDF},
+  publisher  = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  readstatus = {skimmed},
 }
 
 @Article{,
@@ -40,6 +42,77 @@
   file         = {:pddl2.1.pdf:PDF;online:http\://arxiv.org/pdf/1106.4561v1:PDF},
   journaltitle = {Journal Of Artificial Intelligence Research, Volume 20, pages 61-124, 2003},
   keywords     = {cs.AI},
+  readstatus   = {skimmed},
+}
+
+@InProceedings{fox2002pddl+,
+  author    = {Fox, Maria and Long, Derek},
+  booktitle = {Proceedings of the 3rd International NASA Workshop on Planning and Scheduling for Space},
+  title     = {PDDL+: Modeling continuous time dependent effects},
+  year      = {2002},
+  pages     = {34},
+  volume    = {4},
+  file      = {:pddl+.pdf:PDF},
+}
+
+@InProceedings{10.5555/3061053.3061071,
+  author    = {Piotrowski, Wiktor and Fox, Maria and Long, Derek and Magazzeni, Daniele and Mercorio, Fabio},
+  booktitle = {Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence},
+  title     = {Heuristic Planning for PDDL+ Domains},
+  year      = {2016},
+  address   = {New York, New York, USA},
+  pages     = {3213–3219},
+  publisher = {AAAI Press},
+  series    = {IJCAI'16},
+  abstract  = {Planning with hybrid domains modelled in PDDL+ has been gaining research interest in the Automated Planning community in recent years. Hybrid domain models capture a more accurate representation of real world problems that involve continuous processes than is possible using discrete systems. However, solving problems represented as PDDL+ domains is very challenging due to the construction of complex system dynamics, including non-linear processes and events. In this paper we introduce DiNo, a new planner capable of tackling complex problems with non-linear system dynamics governing the continuous evolution of states. DiNo is based on the discretise-and-validate approach and uses the novel Staged Relaxed Planning Graph+ (SRPG+) heuristic, which is introduced in this paper. Although several planners have been developed to work with subsets of PDDL+ features, or restricted forms of processes, DiNo is currently the only heuristic planner capable of handling non-linear system dynamics combined with the full PDDL+ feature set.},
+  file      = {:heuristic_planning_pddl+.pdf:PDF},
+  isbn      = {9781577357704},
+  numpages  = {7},
+}
+
+@Paper{AAAIW1612589,
+  abstract   = {Planning in hybrid systems is important for dealing with real world applications. PDDL+ supports this representation of domains with mixed discrete and continuous dynamics, and supports events and processes modeling exogenous change. Motivated by numerous SAT-based planning approaches, we propose an approach to PDDL+ planning through SMT, describing an SMT encoding that captures all the features of the PDDL+ problem as published by Fox and Long (2006). The encoding can be applied on domains with nonlinear continuous change. We apply this encoding in a simple planning algorithm, demonstrating excellent results on a set of benchmark problems.},
+  author     = {Michael Cashmore and Maria Fox and Derek Long and Daniele Magazzeni},
+  conference = {AAAI Workshops},
+  file       = {:compilation_pddl+_smt.pdf:PDF},
+  keywords   = {Planning; SMT; PDDL+},
+  title      = {A Compilation of the Full PDDL+ Language into SMT},
+  url        = {https://www.aaai.org/ocs/index.php/WS/AAAIW16/paper/view/12589/12427},
+  year       = {2016},
+}
+
+@InProceedings{Garrido,
+  author    = {Antonio Garrido and Maria Fox and  and Derek and Long},
+  booktitle = {Proceedings of the 15th Eureopean Conference on Artificial Intelligence, ECAI'2002},
+  title     = {A Temporal Planning System for Durative Actions of PDDL2.1},
+  year      = {2002},
+  month     = {01},
+  pages     = {586-590},
+  abstract  = {Many planning domains have temporal features that can 2 MOTIVATION
+be expressed as durations associated with actions. Unfortunately, the
+conservative model of actions of most temporal planners is not ap- Unlike PDDL, PDDL2.1 allows the modelling of temporal planning},
+  file      = {:temporal_planning_durative_actions_pddl2.1.pdf:PDF},
+}
+
+@InProceedings{Coles2008,
+  author    = {Andrew Coles and Maria Fox and Derek Long and Amanda Smith and and Department of ComputerInformation Sciences and University of Strathclyde and Glasgow and G1 1XH and UK},
+  booktitle = {Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence (2008)},
+  title     = {Planning with Problems Requiring Temporal Coordination},
+  year      = {2008},
+  pages     = {137-144},
+  abstract  = {Fox 2004) and used in this work, refers to problems whose
+solutions can benefit from concurrent activity, subsuming re-},
+  file      = {:/Users/therring/Workspace/bibtexes/temporal_tamp/planning_problems_temporal_coordination.pdf:PDF},
+  journal   = {2008 15th International Symposium on Temporal Representation and Reasoning},
+}
+
+@InProceedings{Della2009,
+  author    = {Giuseppe Della and Penna and Daniele and Magazzeni and Fabio and Mercorio and Department of Computer Science and University of L’Aquila and Italy},
+  booktitle = {Proceedings of the Nineteenth International Conference on Automated Planning and Scheduling},
+  title     = {UPMurphi: A Tool for Universal Planning on PDDL+ Problems},
+  year      = {2009},
+  abstract  = {1.1 Motivation},
+  file      = {:/Users/therring/Workspace/bibtexes/temporal_tamp/upmurphi.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
