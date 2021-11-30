@@ -42,6 +42,7 @@
   file         = {:pddl2.1.pdf:PDF;online:http\://arxiv.org/pdf/1106.4561v1:PDF},
   journaltitle = {Journal Of Artificial Intelligence Research, Volume 20, pages 61-124, 2003},
   keywords     = {cs.AI},
+  readstatus   = {skimmed},
 }
 
 @InProceedings{fox2002pddl+,
@@ -103,6 +104,15 @@ conservative model of actions of most temporal planners is not ap- Unlike PDDL, 
 solutions can benefit from concurrent activity, subsuming re-},
   file      = {:/Users/therring/Workspace/bibtexes/temporal_tamp/planning_problems_temporal_coordination.pdf:PDF},
   journal   = {2008 15th International Symposium on Temporal Representation and Reasoning},
+}
+
+@InProceedings{Della2009,
+  author    = {Giuseppe Della and Penna and Daniele and Magazzeni and Fabio and Mercorio and Department of Computer Science and University of L’Aquila and Italy},
+  booktitle = {Proceedings of the Nineteenth International Conference on Automated Planning and Scheduling},
+  title     = {UPMurphi: A Tool for Universal Planning on PDDL+ Problems},
+  year      = {2009},
+  abstract  = {1.1 Motivation},
+  file      = {:/Users/therring/Workspace/bibtexes/temporal_tamp/upmurphi.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
