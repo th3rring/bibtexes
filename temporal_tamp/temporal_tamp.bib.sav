@@ -46,13 +46,19 @@
 }
 
 @InProceedings{fox2002pddl+,
-  author    = {Fox, Maria and Long, Derek},
-  booktitle = {Proceedings of the 3rd International NASA Workshop on Planning and Scheduling for Space},
-  title     = {PDDL+: Modeling continuous time dependent effects},
-  year      = {2002},
-  pages     = {34},
-  volume    = {4},
-  file      = {:pddl+.pdf:PDF},
+  author     = {Fox, Maria and Long, Derek},
+  booktitle  = {Proceedings of the 3rd International NASA Workshop on Planning and Scheduling for Space},
+  title      = {PDDL+: Modeling continuous time dependent effects},
+  year       = {2002},
+  pages      = {34},
+  volume     = {4},
+  comment    = {Expands PDDL2.1 to include processes and events to handle extrageneous effects and durative actions in planning.
+
+Events are actions that are applied by the "environment" that can start processes.
+
+Processes affect the state over time and continue to occur unless acted on by an effect or action.},
+  file       = {:pddl+.pdf:PDF},
+  readstatus = {read},
 }
 
 @InProceedings{10.5555/3061053.3061071,
@@ -70,15 +76,17 @@
   numpages  = {7},
 }
 
-@Paper{AAAIW1612589,
-  abstract   = {Planning in hybrid systems is important for dealing with real world applications. PDDL+ supports this representation of domains with mixed discrete and continuous dynamics, and supports events and processes modeling exogenous change. Motivated by numerous SAT-based planning approaches, we propose an approach to PDDL+ planning through SMT, describing an SMT encoding that captures all the features of the PDDL+ problem as published by Fox and Long (2006). The encoding can be applied on domains with nonlinear continuous change. We apply this encoding in a simple planning algorithm, demonstrating excellent results on a set of benchmark problems.},
+@InProceedings{AAAIW1612589,
   author     = {Michael Cashmore and Maria Fox and Derek Long and Daniele Magazzeni},
+  title      = {A Compilation of the Full PDDL+ Language into SMT},
+  booktitle  = {Proceedings of the 26th International Conference on Automated Planning and Scheduling (ICAPS 2016)},
+  year       = {2016},
+  abstract   = {Planning in hybrid systems is important for dealing with real world applications. PDDL+ supports this representation of domains with mixed discrete and continuous dynamics, and supports events and processes modeling exogenous change. Motivated by numerous SAT-based planning approaches, we propose an approach to PDDL+ planning through SMT, describing an SMT encoding that captures all the features of the PDDL+ problem as published by Fox and Long (2006). The encoding can be applied on domains with nonlinear continuous change. We apply this encoding in a simple planning algorithm, demonstrating excellent results on a set of benchmark problems.},
   conference = {AAAI Workshops},
   file       = {:compilation_pddl+_smt.pdf:PDF},
+  journal    = {Proceedings of the 26th International Conference on Automated Planning and Scheduling (ICAPS 2016)},
   keywords   = {Planning; SMT; PDDL+},
-  title      = {A Compilation of the Full PDDL+ Language into SMT},
   url        = {https://www.aaai.org/ocs/index.php/WS/AAAIW16/paper/view/12589/12427},
-  year       = {2016},
 }
 
 @InProceedings{Garrido,
@@ -113,6 +121,97 @@ solutions can benefit from concurrent activity, subsuming re-},
   year      = {2009},
   abstract  = {1.1 Motivation},
   file      = {:/Users/therring/Workspace/bibtexes/temporal_tamp/upmurphi.pdf:PDF},
+}
+
+@InProceedings{Benton_Coles_Coles_2012,
+  author       = {Benton, J. and Coles, Amanda and Coles, Andrew},
+  title        = {Temporal Planning with Preferences and Time-Dependent Continuous Costs},
+  booktitle    = {roceedings of the International Conference on Automated Planning and Scheduling},
+  year         = {2012},
+  volume       = {22},
+  number       = {1},
+  pages        = {2-10},
+  month        = {May},
+  abstractnote = { &lt;p&gt; Temporal planning methods usually focus on the objective of minimizing makespan. Unfortunately, this misses a large class of planning problems where it is important to consider a wider variety of temporal and non-temporal preferences, making makespan lower-order concern. In this paper we consider modeling and reasoning with plan quality metrics that are not directly correlated with plan makespan, building on the planner POPF. We begin with the preferences defined in PDDL3, and present a mixed integer programming encoding to manage the the interaction between the hard temporal constraints for plan steps, and soft temporal constraints for preferences. To widen the support of metrics that can be expressed directly in PDDL, we then discuss an extension to soft-deadlines with continuous cost functions, avoiding the need to approximate these with several PDDL3 discrete-cost preferences. We demonstrate the success of our new planner on the benchmark temporal planning problems with preferences, showing that it is the state-of-the-art for such problems. We then analyze the benefits of reasoning with continuous (versus discretized) models of domains with continuous cost functions, showing the improvement in solution quality afforded through making the continuous cost function directly available to the planner. &lt;/p&gt; },
+  file         = {:optic.pdf:PDF},
+  journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/13509},
+}
+
+@InProceedings{Heinz_Wehrle_Bogomolov_Magazzeni_Greitschus_Podelski_2021,
+  author       = {Heinz, Alexander and Wehrle, Martin and Bogomolov, Sergiy and Magazzeni, Daniele and Greitschus, Marius and Podelski, Andreas},
+  title        = {Temporal Planning as Refinement-Based Model Checking},
+  booktitle    = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  year         = {2021},
+  volume       = {29},
+  number       = {1},
+  pages        = {195-199},
+  month        = {May},
+  abstractnote = {&lt;p&gt;Planning as model checking based on source-to-source compilations has found increasing attention. Previously proposed approaches for temporal and hybrid planning are based on &lt;em&gt;static&lt;/em&gt; translations, in the sense that the resulting model checking problems are uniquely defined by the given input planning problems. As a drawback, the translations can become too large to be efficiently solvable. In this paper, we address propositional temporal planning, lifting static translations to a more flexible framework. Our framework is based on a refinement cycle that allows for adaptively computing suitable translations of increasing size. Our experiments on temporal IPC domains show that the resulting translations to timed automata often become succinct, resulting in promising performance when applied with the directed model checker MCTA.&lt;/p&gt;},
+  file         = {:temporal_planning_model_checking.pdf:PDF},
+  journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/3476},
+}
+
+@InProceedings{Denenberg_Coles_2021,
+  author       = {Denenberg, Elad and Coles, Amanda},
+  title        = {Mixed Discrete Continuous Non-Linear Planning through Piecewise Linear Approximation},
+  booktitle    = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  year         = {2021},
+  volume       = {29},
+  number       = {1},
+  pages        = {137-145},
+  month        = {May},
+  abstractnote = {&lt;p&gt;Reasoning with continuously changing numeric quantities is vital to applying planners in many real-world scenarios. Several planners capable of doing this have been developed recently. Scalability remains a challenge for such planners, especially those that reason with non-linear continuous change. In this paper, we present a novel approach to reasoning with non-linear domains. Bounding the problem using linear over and under-estimators, allows us to use scalable planners that handle linear change to find plans for non-linear domains. We compare the performance of our approach to existing planners on several domains and demonstrate that our planner can achieve state-of-the-art performance in non-linear planning.&lt;/p&gt;},
+  file         = {:optic++.pdf:PDF},
+  journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/3469},
+}
+
+@Article{sun2022multiagent,
+  author        = {Dawei Sun and Jingkai Chen and Sayan Mitra and Chuchu Fan},
+  title         = {Multi-agent Motion Planning from Signal Temporal Logic Specifications},
+  journal       = {IEEE Robotics and Automation Letters (RA-L)},
+  year          = {2022},
+  archiveprefix = {arXiv},
+  eprint        = {2201.05247},
+  file          = {:multi_mp_temporal_logic.pdf:PDF},
+  primaryclass  = {cs.RO},
+}
+
+@InProceedings{Patra_Ghallab_Nau_Traverso_2019,
+  author       = {Patra, Sunandita and Ghallab, Malik and Nau, Dana and Traverso, Paolo},
+  title        = {Acting and Planning Using Operational Models},
+  booktitle    = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year         = {2019},
+  volume       = {33},
+  number       = {01},
+  pages        = {7691-7698},
+  month        = {Jul.},
+  abstractnote = {&lt;p&gt;The most common representation formalisms for planning are &lt;em&gt;descriptive models&lt;/em&gt;. They abstractly describe &lt;em&gt;what&lt;/em&gt; the actions do and are tailored for efficiently computing the next state(s) in a state transition system. But acting requires &lt;em&gt;operational models&lt;/em&gt; that describe &lt;em&gt;how&lt;/em&gt; to do things, with rich control structures for closed-loop online decision-making. Using descriptive representations for planning and operational representations for acting can lead to problems with developing and verifying consistency of the different models.&lt;/p&gt;&lt;p&gt;We define and implement an integrated acting-and-planning system in which both planning and acting use the same operational models, which are written in a general-purpose hierarchical task-oriented language offering rich control structures. The acting component is inspired by the well-known PRS system, except that instead of being purely reactive, it can get advice from the planner. Our planning algorithm, RAEplan, plans by doing Monte Carlo rollout simulations of the actor’s operational models. Our experiments show significant benefits in the efficiency of the acting and planning system.&lt;/p&gt;},
+  doi          = {10.1609/aaai.v33i01.33017691},
+  file         = {:act_plan_operational_models.pdf:PDF},
+  journal      = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  url          = {https://ojs.aaai.org/index.php/AAAI/article/view/4764},
+}
+
+@Book{ghallab_2016,
+  title     = {Automated Planning and Acting},
+  publisher = {Cambridge University Press},
+  year      = {2016},
+  author    = {Malik Ghallab, Dana Nau, Paolo Traverso},
+  file      = {:automated_planning_and_acting.pdf:PDF},
+}
+
+@InProceedings{okumura2022ctrms,
+  author        = {Keisuke Okumura and Ryo Yonetani and Mai Nishimura and Asako Kanezaki},
+  title         = {CTRMs: Learning to Construct Cooperative Timed Roadmaps for Multi-agent Path Planning in Continuous Spaces},
+  booktitle     = {International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2022)},
+  year          = {2022},
+  archiveprefix = {arXiv},
+  eprint        = {2201.09467},
+  file          = {:ctrms.pdf:PDF},
+  primaryclass  = {cs.MA},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
