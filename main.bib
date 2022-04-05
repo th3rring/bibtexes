@@ -757,10 +757,104 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   review    = {Timed initial literal abstraction feature from OPTIC outlined in this paper},
 }
 
+@InProceedings{Fischer2010,
+  author      = {Sourav Chakraborty, Eldar Fischer, Oded Lachish, Raphael Yuster},
+  title       = {Two-phase algorithms for the parametric shortest path problem},
+  booktitle   = {Proceedings from the Symposium on Theeoretical Aspects of Computer Science},
+  year        = {2010},
+  pages       = {167-178},
+  abstract    = {A {\em parametric weighted graph} is a graph whose edges are labeled with continuous real functions of a single common variable. For any instantiation of the variable, one obtains a standard edge-weighted graph. Parametric weighted graph problems are generalizations of weighted graph problems, and arise in various natural scenarios. Parametric weighted graph algorithms consist of two phases. A {\em preprocessing phase} whose input is a parametric weighted graph, and whose output is a data structure, the advice, that is later used by the {\em instantiation phase}, where a specific value for the variable is given. The instantiation phase outputs the solution to the (standard) weighted graph problem that arises from the instantiation. The goal is to have the running time of the instantiation phase supersede the running time of any algorithm that solves the weighted graph problem from scratch, by taking advantage of the advice. In this paper we construct several parametric algorithms for the shortest path problem. For the case of linear function weights we present an algorithm for the single source shortest path problem.},
+  date        = {2010-01-21},
+  eprint      = {1001.3749v2},
+  eprintclass = {cs.CC},
+  eprinttype  = {arXiv},
+  file        = {:paper_library/two_phase_parametric_shortest_path.pdf:PDF},
+  keywords    = {graph, upgradable, shortest path},
+}
+
+@Article{Palk1995,
+  author   = {Doowon Palk, Sartaj Sahni},
+  title    = {Network Upgrading Problems},
+  journal  = {Networks},
+  year     = {1995},
+  volume   = {Vol. 26},
+  pages    = {45-48},
+  file     = {:paper_library/network_upgrading_problems.pdf:PDF},
+  keywords = {graph, upgradable},
+}
+
+@InProceedings{Dilkina2011UpgradingSP,
+  author    = {Bistra N. Dilkina and Katherine J. Lai and Carla P. Gomes},
+  title     = {Upgrading Shortest Paths in Networks},
+  booktitle = {CPAIOR},
+  year      = {2011},
+  file      = {:paper_library/upgrading_shortest_paths_networks.pdf:PDF},
+  keywords  = {graph, upgradable,},
+}
+
+@Article{FRIEZE202146,
+  author   = {Alan Frieze and Tomasz Tkocz},
+  title    = {Shortest paths with a cost constraint: A probabilistic analysis},
+  journal  = {Discrete Applied Mathematics},
+  year     = {2021},
+  volume   = {302},
+  pages    = {46-53},
+  issn     = {0166-218X},
+  abstract = {We consider a constrained version of the shortest path problem on the complete graphs whose edges have independent random lengths and costs. We establish the asymptotic value of the minimum length as a function of the cost-budget within a wide range.},
+  doi      = {https://doi.org/10.1016/j.dam.2021.06.001},
+  file     = {:paper_library/shortest_path_cost_constraint_probabilistic_analysis.pdf:PDF},
+  keywords = {graph, upgradable,},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0166218X21002390},
+}
+
+@InBook{Strasser2015,
+  pages     = {69--82},
+  title     = {Graph Fill-In, Elimination Ordering, Nested Dissection and Contraction Hierarchies},
+  publisher = {Springer International Publishing},
+  year      = {2015},
+  author    = {Strasser, Ben and Wagner, Dorothea},
+  editor    = {Schulz, Andreas S. and Skutella, Martin and Stiller, Sebastian and Wagner, Dorothea},
+  address   = {Cham},
+  isbn      = {978-3-319-24971-1},
+  abstract  = {Graph fill-in, elimination ordering, separators, nested dissection orders and tree-width are only some examples of classical graph concepts that are related in manifold ways. This essay shows how contraction hierarchies, a successful approach to speed up Dijkstra's algorithm for shortest paths, fits into this series of graph concepts. A theoretical consequence of this insight is a guarantee for the size of the search space required by Dijkstra's algorithm combined with contraction hierarchies. On the other hand, the use of nested dissection leads to a very practicable variant of contraction hierarchies that can be applied in scenarios where edge lengths often change.},
+  booktitle = {Gems of Combinatorial Optimization and Graph Algorithms},
+  doi       = {10.1007/978-3-319-24971-1_7},
+  file      = {:paper_library/graph_fill_in_contraction_hierarchies.pdf:PDF},
+  keywords  = {graph, upgradable},
+  url       = {https://doi.org/10.1007/978-3-319-24971-1_7},
+}
+
+@InProceedings{Schaefer2008,
+  author    = {Schaefer, Guido},
+  title     = {Budgeted Matching via the Gasoline Puzzle},
+  booktitle = {Proceeeings of the 13th Conference on Integer Progreamming and Combinatorical Optimization},
+  year      = {2008},
+  volume    = {5035},
+  pages     = {273-287},
+  month     = {05},
+  doi       = {10.1007/978-3-540-68891-4_19},
+  file      = {:paper_library/budget_matching_gasoline.pdf:PDF},
+  isbn      = {978-3-540-68886-0},
+  keywords  = {graph, upgradable},
+}
+
+@Article{Muller2015,
+  author    = {Rudolf Muller and Marc Uetz},
+  title     = {Shortest Path to Mechanical Design},
+  journal   = {Gems of Combinatorial Optimization and Graph Algorithms},
+  year      = {2015},
+  pages     = {83-94},
+  doi       = {10.1017/S0890060415000311},
+  file      = {:paper_library/shortest_path_mechanism_design.pdf:PDF},
+  keywords  = {graph, upgradable,},
+  publisher = {Cambridge University Press},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
 1 KeywordGroup:Temporal Task Planning\;0\;keywords\;temporal, task\;0\;0\;;
 1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;;
+1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable,\;0\;0\;;
 }
