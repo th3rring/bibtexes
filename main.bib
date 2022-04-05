@@ -961,6 +961,68 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
 },
 }
 
+@InProceedings{pmlr-v28-chen13a,
+  author    = {Chen, Wei and Wang, Yajun and Yuan, Yang},
+  title     = {Combinatorial Multi-Armed Bandit: General Framework and Applications},
+  booktitle = {Proceedings of the 30th International Conference on Machine Learning},
+  year      = {2013},
+  editor    = {Dasgupta, Sanjoy and McAllester, David},
+  volume    = {28},
+  number    = {1},
+  series    = {Proceedings of Machine Learning Research},
+  pages     = {151--159},
+  address   = {Atlanta, Georgia, USA},
+  month     = {17--19 Jun},
+  publisher = {PMLR},
+  abstract  = {We define a general framework for a large class of combinatorial multi-armed bandit (CMAB) problems, where simple arms with unknown istributions  form \em super arms. In each round, a super arm is played and the outcomes of its related simple arms are observed, which helps the selection of super arms in future rounds. The reward of the super arm depends on the outcomes of played arms, and it only needs to satisfy two mild assumptions, which allow a large class of nonlinear reward instances. We assume the availability of an (α,β)-approximation oracle that takes the  means of the distributions of arms and outputs a super arm that with probability βgenerates  an αfraction of the optimal expected reward. The objective of a CMAB algorithm is to minimize \em (α,β)-approximation regret, which is the difference in total expected reward between the αβfraction of expected reward when always playing the optimal super arm, and the expected reward of playing super arms according to the algorithm. We provide CUCB algorithm that achieves O(\log n) regret, where n is the number of rounds played, and we further provide distribution-independent bounds for a large class of reward functions. Our regret analysis is tight in that it matches the bound for classical MAB problem up to a constant factor, and it significantly improves the regret bound in a recent paper on combinatorial bandits with linear rewards. We apply our CMAB framework to two new applications, probabilistic maximum coverage (PMC) for online advertising and social influence maximization for viral marketing, both having nonlinear reward structures.},
+  file      = {:paper_library/combinatorial_mab.pdf:PDF},
+  keywords  = {reinforcement learning, multi-armed bandit, combinatorial bandit},
+  pdf       = {http://proceedings.mlr.press/v28/chen13a.pdf},
+  url       = {https://proceedings.mlr.press/v28/chen13a.html},
+}
+
+@Article{ab6cf163be1a4160a1b6a4224c6132f7,
+  author   = {Huasen Wu and R. Srikant and Xin Liu and Chong Jiang},
+  title    = {Algorithms with logarithmic or sublinear regret for constrained contextual bandits},
+  journal  = {Advances in Neural Information Processing Systems},
+  year     = {2015},
+  volume   = {2015-January},
+  pages    = {433--441},
+  issn     = {1049-5258},
+  note     = {Funding Information: This research was supported in part by NSF Grants CCF-1423542, CNS-1457060, CNS-1547461, and AFOSR MURI Grant FA 9550-10-1-0573.; 29th Annual Conference on Neural Information Processing Systems, NIPS 2015 ; Conference date: 07-12-2015 Through 12-12-2015},
+  abstract = {We study contextual bandits with budget and time constraints, referred to as constrained contextual bandits. The time and budget constraints significantly complicate the exploration and exploitation tradeoff because they introduce complex coupling among contexts over time. To gain insight, we first study unit-cost systems with known context distribution. When the expected rewards are known, we develop an approximation of the oracle, referred to Adaptive-Linear-Programming (ALP), which achieves near-optimality and only requires the ordering of expected rewards. With these highly desirable features, we then combine ALP with the upper-confidence-bound (UCB) method in the general case where the expected rewards are unknown a priori. We show that the proposed UCB-ALP algorithm achieves logarithmic regret except for certain boundary cases. Further, we design algorithms and obtain similar regret bounds for more general systems with unknown context distribution and heterogeneous costs. To the best of our knowledge, this is the first work that shows how to achieve logarithmic regret in constrained contextual bandits. Moreover, this work also sheds light on the study of computationally efficient algorithms for general constrained contextual bandits.},
+  file     = {:paper_library/log_sublinear_regret_constrained_context_mab.pdf:PDF},
+  keywords = {reinforcement learning, multi-armed bandit, contextual bandit, restricted context},
+  language = {English (US)},
+}
+
+@InProceedings{Bouneffouf2017,
+  author    = {Bouneffouf, Djallel and Rish, Irina and Cecchi, Guillermo and Feraud, Raphaël},
+  title     = {Context Attentive Bandits: Contextual Bandit with Restricted Context},
+  booktitle = {Proceedings of the Twnty-Sixth International Joint COnference on Artificial Intelligence},
+  year      = {2017},
+  month     = {08},
+  doi       = {10.24963/ijcai.2017/203},
+  file      = {:paper_library/context_attentive_mab.pdf:PDF},
+  keywords  = {reinforcement learning, multi-armed bandit, contextual bandit},
+}
+
+@Book{suttonbarto2018,
+  title     = {Reinforcement Learning: An Introduction},
+  publisher = {The MIT Press},
+  year      = {2018},
+  author    = {Sutton, Richard S. and Barto, Andrew G.},
+  edition   = {Second},
+  added-at  = {2019-07-13T10:11:53.000+0200},
+  biburl    = {https://www.bibsonomy.org/bibtex/2f46601cf8b13d39d1378af0d79438b12/lanteunis},
+  interhash = {ac6b144aaec1819919a2fba9f705c852},
+  intrahash = {f46601cf8b13d39d1378af0d79438b12},
+  keywords  = {reinforcement learning, multi-armed bandit},
+  review    = {Chapter 4 has a good summary of general thompson sampling},
+  timestamp = {2019-07-13T10:11:53.000+0200},
+  url       = {http://incompleteideas.net/book/the-book-2nd.html},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: groupstree:
@@ -969,4 +1031,5 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
 1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;;
 1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable,\;0\;0\;;
 1 KeywordGroup:AO Planning\;0\;keywords\;asymptotically optimal, motion, planning\;0\;0\;;
+1 KeywordGroup:Multi-Armed Bandits\;0\;keywords\;reinforcement learning, multi-armed bandit\;0\;0\;;
 }
