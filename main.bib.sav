@@ -60,18 +60,18 @@
   keywords      = {cs.LG, cs.AI, cs.CV, cs.RO, stat.ML},
 }
 
-@article{Lagriffoul_2016,
-  author = {Fabien Lagriffoul and Benjamin Andres},
-  title = {Combining task and motion planning: A culprit detection problem},
-  journal = {The International Journal of Robotics Research},
-  year = {2016},
-  volume = {35},
-  number = {8},
-  pages = {890--927},
-  month = {jan},
+@Article{Lagriffoul_2016,
+  author        = {Fabien Lagriffoul and Benjamin Andres},
+  title         = {Combining task and motion planning: A culprit detection problem},
+  journal       = {The International Journal of Robotics Research},
+  year          = {2016},
+  volume        = {35},
+  number        = {8},
+  pages         = {890--927},
+  month         = {jan},
   __markedentry = {[therring:1]},
-  doi = {10.1177/0278364915619022},
-  publisher = {{SAGE} Publications},
+  doi           = {10.1177/0278364915619022},
+  publisher     = {{SAGE} Publications},
 }
 
 @Article{Gerkey_2004,
@@ -150,20 +150,14 @@
   file    = {:paper_library/mr_tamp.pdf:PDF},
 }
 
-@inproceedings{5980391,
-  author = {Kaelbling, Leslie Pack and Lozano-Pérez, Tomás},
-  title = {Hierarchical task and motion planning in the now},
+@InProceedings{5980391,
+  author    = {Kaelbling, Leslie Pack and Lozano-Pérez, Tomás},
+  title     = {Hierarchical task and motion planning in the now},
   booktitle = {2011 IEEE International Conference on Robotics and Automation},
-  year = {2011},
-  pages = {1470-1477},
-  annotate = {Decomposes TAMP problem and solves in real time based on world's
-              state through execution. Represents actions in world as operation
-              and modifications to world state as fluents. Decomposes operations
-              into weakest precondition subgoals and solves those recursively.
-              This makes order of execution critical! Will only find a plan if
-              the goal state is reachable through some set of operations. Defines
-              goals as conjunctions of fluents (i.e. like Clean(a)).},
-  doi = {10.1109/ICRA.2011.5980391},
+  year      = {2011},
+  pages     = {1470-1477},
+  annotate  = {Decomposes TAMP problem and solves in real time based on world's state through execution. Represents actions in world as operation and modifications to world state as fluents. Decomposes operations into weakest precondition subgoals and solves those recursively. This makes order of execution critical! Will only find a plan if the goal state is reachable through some set of operations. Defines goals as conjunctions of fluents (i.e. like Clean(a)).},
+  doi       = {10.1109/ICRA.2011.5980391},
 }
 
 @Article{Vega_Brown_2020,
@@ -181,21 +175,19 @@
   publisher     = {Association for the Advancement of Artificial Intelligence ({AAAI})},
 }
 
-@article{Agostini_2020,
-  author = {Alejandro Agostini and Matteo Saveriano and Dongheui Lee and Justus
-            Piater},
-  title = {Manipulation Planning Using Object-Centered Predicates and
-           Hierarchical Decomposition of Contextual Actions},
-  journal = {{IEEE} Robotics and Automation Letters},
-  year = {2020},
-  volume = {5},
-  number = {4},
-  pages = {5629--5636},
-  month = {oct},
+@Article{Agostini_2020,
+  author        = {Alejandro Agostini and Matteo Saveriano and Dongheui Lee and Justus Piater},
+  title         = {Manipulation Planning Using Object-Centered Predicates and Hierarchical Decomposition of Contextual Actions},
+  journal       = {{IEEE} Robotics and Automation Letters},
+  year          = {2020},
+  volume        = {5},
+  number        = {4},
+  pages         = {5629--5636},
+  month         = {oct},
   __markedentry = {[therring:1]},
-  doi = {10.1109/lra.2020.3009063},
-  file = {:paper_library/manip_object_centric.pdf:PDF},
-  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  doi           = {10.1109/lra.2020.3009063},
+  file          = {:paper_library/manip_object_centric.pdf:PDF},
+  publisher     = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
 @InCollection{Messing_2021,
@@ -400,38 +392,34 @@
   publisher     = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
-@article{Garrett2021,
-  author = {Caelan Reed Garrett and Rohan Chitnis and Rachel Holladay and
-            Beomjoon Kim and Tom Silver and Leslie Pack Kaelbling and Tom{\'{a}}s
-            Lozano-P{\'{e}}rez},
-  title = {Integrated Task and Motion Planning},
-  journal = {Annual Review of Control, Robotics, and Autonomous Systems},
-  year = {2021},
-  volume = {4},
-  number = {1},
-  pages = {265--293},
-  month = {may},
+@Article{Garrett2021,
+  author        = {Caelan Reed Garrett and Rohan Chitnis and Rachel Holladay and Beomjoon Kim and Tom Silver and Leslie Pack Kaelbling and Tom{\'{a}}s Lozano-P{\'{e}}rez},
+  title         = {Integrated Task and Motion Planning},
+  journal       = {Annual Review of Control, Robotics, and Autonomous Systems},
+  year          = {2021},
+  volume        = {4},
+  number        = {1},
+  pages         = {265--293},
+  month         = {may},
   __markedentry = {[therring:1]},
-  doi = {10.1146/annurev-control-091420-084139},
-  file = {:paper_library/integrated_tamp.pdf:PDF},
-  publisher = {Annual Reviews},
+  doi           = {10.1146/annurev-control-091420-084139},
+  file          = {:paper_library/integrated_tamp.pdf:PDF},
+  publisher     = {Annual Reviews},
 }
 
-@article{Dantam2018,
-  author = {Neil T Dantam and Zachary K Kingston and Swarat Chaudhuri and Lydia
-            E Kavraki},
-  title = {An incremental constraint-based framework for task and motion
-           planning},
-  journal = {The International Journal of Robotics Research},
-  year = {2018},
-  volume = {37},
-  number = {10},
-  pages = {1134--1151},
-  month = {mar},
+@Article{Dantam2018,
+  author        = {Neil T Dantam and Zachary K Kingston and Swarat Chaudhuri and Lydia E Kavraki},
+  title         = {An incremental constraint-based framework for task and motion planning},
+  journal       = {The International Journal of Robotics Research},
+  year          = {2018},
+  volume        = {37},
+  number        = {10},
+  pages         = {1134--1151},
+  month         = {mar},
   __markedentry = {[therring:1]},
-  doi = {10.1177/0278364918761570},
-  file = {:paper_library/idtmp.pdf:PDF},
-  publisher = {{SAGE} Publications},
+  doi           = {10.1177/0278364918761570},
+  file          = {:paper_library/idtmp.pdf:PDF},
+  publisher     = {{SAGE} Publications},
 }
 
 @Article{Lagriffoul_2018,
@@ -603,21 +591,6 @@ solutions can benefit from concurrent activity, subsuming re-},
   file      = {:paper_library/automated_planning_and_acting.pdf:PDF},
 }
 
-@Article{Dantam_2018,
-  author    = {Neil T Dantam and Zachary K Kingston and Swarat Chaudhuri and Lydia E Kavraki},
-  title     = {An incremental constraint-based framework for task and motion planning},
-  journal   = {The International Journal of Robotics Research},
-  year      = {2018},
-  volume    = {37},
-  number    = {10},
-  pages     = {1134--1151},
-  month     = {mar},
-  doi       = {10.1177/0278364918761570},
-  file      = {:paper_library/idtmp.pdf:PDF},
-  groups    = {therring:1},
-  publisher = {{SAGE} Publications},
-}
-
 @InProceedings{Patra_Ghallab_Nau_Traverso_2019,
   author       = {Patra, Sunandita and Ghallab, Malik and Nau, Dana and Traverso, Paolo},
   title        = {Acting and Planning Using Operational Models},
@@ -676,19 +649,16 @@ conservative model of actions of most temporal planners is not ap- Unlike PDDL, 
   keywords      = {cs.AI, cs.RO},
 }
 
-@article{Hang_2019,
-  author = {Kaiyu Hang and Ximin Lyu and Haoran Song and Johannes A. Stork and
-            Aaron M. Dollar and Danica Kragic and Fu Zhang},
-  title = {Perching and resting{\textemdash}A paradigm for {UAV} maneuvering
-           with modularized landing gears},
-  journal = {Science Robotics},
-  year = {2019},
-  volume = {4},
-  number = {28},
-  month = {mar},
-  comment = {Uses computered gripper contact patterns to enable drones to perch
-             like birds. Saw this in Hang's 11/22/2021 talk to the group.},
-  doi = {10.1126/scirobotics.aau6637},
+@Article{Hang_2019,
+  author    = {Kaiyu Hang and Ximin Lyu and Haoran Song and Johannes A. Stork and Aaron M. Dollar and Danica Kragic and Fu Zhang},
+  title     = {Perching and resting{\textemdash}A paradigm for {UAV} maneuvering with modularized landing gears},
+  journal   = {Science Robotics},
+  year      = {2019},
+  volume    = {4},
+  number    = {28},
+  month     = {mar},
+  comment   = {Uses computered gripper contact patterns to enable drones to perch like birds. Saw this in Hang's 11/22/2021 talk to the group.},
+  doi       = {10.1126/scirobotics.aau6637},
   publisher = {American Association for the Advancement of Science ({AAAS})},
 }
 
