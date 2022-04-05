@@ -517,7 +517,7 @@ achieve state-of-the-art performance in non-linear planning.},
   abstractnote = {&lt;p&gt;Reasoning with continuously changing numeric quantities is vital to applying planners in many real-world scenarios. Several planners capable of doing this have been developed recently. Scalability remains a challenge for such planners, especially those that reason with non-linear continuous change. In this paper, we present a novel approach to reasoning with non-linear domains. Bounding the problem using linear over and under-estimators, allows us to use scalable planners that handle linear change to find plans for non-linear domains. We compare the performance of our approach to existing planners on several domains and demonstrate that our planner can achieve state-of-the-art performance in non-linear planning.&lt;/p&gt;},
   file         = {:paper_library/optic++.pdf:PDF},
   journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
-  keywords     = {temporal, task, planning, pddl+},
+  keywords     = {temporal, task, planning, optic++},
   url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/3469},
 }
 
