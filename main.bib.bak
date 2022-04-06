@@ -405,7 +405,7 @@
 
 @InProceedings{Benton2012,
   author       = {Benton, J. and Coles, Amanda and Coles, Andrew},
-  booktitle    = {roceedings of the International Conference on Automated Planning and Scheduling},
+  booktitle    = {Proceedings of the International Conference on Automated Planning and Scheduling},
   title        = {Temporal Planning with Preferences and Time-Dependent Continuous Costs},
   year         = {2012},
   month        = {May},
