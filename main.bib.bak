@@ -1,5 +1,3 @@
-% Encoding: UTF-8
-
 @Article{shome_2020,
   author      = {Rahul Shome and Kostas E. Bekris},
   title       = {Synchronized Multi-Arm Rearrangement Guided by Mode Graphs with Capacity Constraints},
@@ -405,34 +403,34 @@
   keywords  = {temporal, task, planning, upmurphi},
 }
 
-@InProceedings{Benton_Coles_Coles_2012,
+@InProceedings{Benton2012,
   author       = {Benton, J. and Coles, Amanda and Coles, Andrew},
-  title        = {Temporal Planning with Preferences and Time-Dependent Continuous Costs},
   booktitle    = {roceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Temporal Planning with Preferences and Time-Dependent Continuous Costs},
   year         = {2012},
-  volume       = {22},
+  month        = {May},
   number       = {1},
   pages        = {2-10},
-  month        = {May},
+  volume       = {22},
   abstractnote = {&lt;p&gt; Temporal planning methods usually focus on the objective of minimizing makespan. Unfortunately, this misses a large class of planning problems where it is important to consider a wider variety of temporal and non-temporal preferences, making makespan lower-order concern. In this paper we consider modeling and reasoning with plan quality metrics that are not directly correlated with plan makespan, building on the planner POPF. We begin with the preferences defined in PDDL3, and present a mixed integer programming encoding to manage the the interaction between the hard temporal constraints for plan steps, and soft temporal constraints for preferences. To widen the support of metrics that can be expressed directly in PDDL, we then discuss an extension to soft-deadlines with continuous cost functions, avoiding the need to approximate these with several PDDL3 discrete-cost preferences. We demonstrate the success of our new planner on the benchmark temporal planning problems with preferences, showing that it is the state-of-the-art for such problems. We then analyze the benefits of reasoning with continuous (versus discretized) models of domains with continuous cost functions, showing the improvement in solution quality afforded through making the continuous cost function directly available to the planner. &lt;/p&gt;},
+  comment      = {OPTIC
+Question: Can durations be specified for grounded actions?},
   file         = {:paper_library/optic.pdf:PDF},
   groups       = {therring:1},
   journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
   keywords     = {temporal, task, planning, optic},
-  review       = {OPTIC
-Question: Can durations be specified for grounded actions?},
   url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/13509},
 }
 
-@InProceedings{Heinz_Wehrle_Bogomolov_Magazzeni_Greitschus_Podelski_2021,
+@InProceedings{Heinz2021,
   author       = {Heinz, Alexander and Wehrle, Martin and Bogomolov, Sergiy and Magazzeni, Daniele and Greitschus, Marius and Podelski, Andreas},
-  title        = {Temporal Planning as Refinement-Based Model Checking},
   booktitle    = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Temporal Planning as Refinement-Based Model Checking},
   year         = {2021},
-  volume       = {29},
+  month        = {May},
   number       = {1},
   pages        = {195-199},
-  month        = {May},
+  volume       = {29},
   abstractnote = {&lt;p&gt;Planning as model checking based on source-to-source compilations has found increasing attention. Previously proposed approaches for temporal and hybrid planning are based on &lt;em&gt;static&lt;/em&gt; translations, in the sense that the resulting model checking problems are uniquely defined by the given input planning problems. As a drawback, the translations can become too large to be efficiently solvable. In this paper, we address propositional temporal planning, lifting static translations to a more flexible framework. Our framework is based on a refinement cycle that allows for adaptively computing suitable translations of increasing size. Our experiments on temporal IPC domains show that the resulting translations to timed automata often become succinct, resulting in promising performance when applied with the directed model checker MCTA.&lt;/p&gt;},
   file         = {:paper_library/temporal_planning_model_checking.pdf:PDF},
   journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
@@ -442,16 +440,16 @@ Question: Can durations be specified for grounded actions?},
 
 @InProceedings{Coles2008,
   author    = {Andrew Coles and Maria Fox and Derek Long and Amanda Smith and and Department of ComputerInformation Sciences and University of Strathclyde and Glasgow and G1 1XH and UK},
-  title     = {Planning with Problems Requiring Temporal Coordination},
   booktitle = {Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence (2008)},
+  title     = {Planning with Problems Requiring Temporal Coordination},
   year      = {2008},
   pages     = {137-144},
   abstract  = {Fox 2004) and used in this work, refers to problems whose
 solutions can benefit from concurrent activity, subsuming re-},
+  comment   = {Introduced CRIKEY3, extended version of CRIKEY planner to handle timed initial literals and PDDL2.1 features},
   file      = {:paper_library/planning_problems_temporal_coordination.pdf:PDF},
   journal   = {2008 15th International Symposium on Temporal Representation and Reasoning},
   keywords  = {temporal, task, planning, pddl2.1},
-  review    = {Introduced CRIKEY3, extended version of CRIKEY planner to handle timed initial literals and PDDL2.1 features},
 }
 
 @Article{fox2002pddl,
@@ -471,15 +469,15 @@ solutions can benefit from concurrent activity, subsuming re-},
 
 @InProceedings{fox2002pddl+,
   author    = {Fox, Maria and Long, Derek},
-  title     = {PDDL+: Modeling continuous time dependent effects},
   booktitle = {Proceedings of the 3rd International NASA Workshop on Planning and Scheduling for Space},
+  title     = {PDDL+: Modeling continuous time dependent effects},
   year      = {2002},
-  volume    = {4},
   pages     = {34},
+  volume    = {4},
+  comment   = {Expands PDDL2.1 to include processes and events to handle extrageneous effects and durative actions in planning. Events are actions that are applied by the "environment" that can start processes. Processes affect the state over time and continue to occur unless acted on by an effect or action.},
   file      = {:paper_library/pddl+.pdf:PDF},
   groups    = {therring:1},
   keywords  = {pddl+},
-  review    = {Expands PDDL2.1 to include processes and events to handle extrageneous effects and durative actions in planning. Events are actions that are applied by the "environment" that can start processes. Processes affect the state over time and continue to occur unless acted on by an effect or action.},
 }
 
 @Article{sun2022multiagent,
@@ -493,15 +491,15 @@ solutions can benefit from concurrent activity, subsuming re-},
   primaryclass  = {cs.RO},
 }
 
-@InProceedings{Denenberg_Coles_2021,
+@InProceedings{Denenberg2021,
   author       = {Denenberg, Elad and Coles, Amanda},
-  title        = {Mixed Discrete Continuous Non-Linear Planning through Piecewise Linear Approximation},
   booktitle    = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Mixed Discrete Continuous Non-Linear Planning through Piecewise Linear Approximation},
   year         = {2021},
-  volume       = {29},
+  month        = {May},
   number       = {1},
   pages        = {137-145},
-  month        = {May},
+  volume       = {29},
   abstract     = {Reasoning with continuously changing numeric quantities is
 vital to applying planners in many real-world scenarios. Sev-
 eral planners capable of doing this have been developed re-
@@ -521,15 +519,15 @@ achieve state-of-the-art performance in non-linear planning.},
   url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/3469},
 }
 
-@InProceedings{10.5555/3061053.3061071,
+@InProceedings{Piotrowski2016,
   author    = {Piotrowski, Wiktor and Fox, Maria and Long, Derek and Magazzeni, Daniele and Mercorio, Fabio},
-  title     = {Heuristic Planning for PDDL+ Domains},
   booktitle = {Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence},
+  title     = {Heuristic Planning for PDDL+ Domains},
   year      = {2016},
-  series    = {IJCAI'16},
-  pages     = {3213–3219},
   address   = {New York, New York, USA},
+  pages     = {3213–3219},
   publisher = {AAAI Press},
+  series    = {IJCAI'16},
   abstract  = {Planning with hybrid domains modelled in PDDL+ has been gaining research interest in the Automated Planning community in recent years. Hybrid domain models capture a more accurate representation of real world problems that involve continuous processes than is possible using discrete systems. However, solving problems represented as PDDL+ domains is very challenging due to the construction of complex system dynamics, including non-linear processes and events. In this paper we introduce DiNo, a new planner capable of tackling complex problems with non-linear system dynamics governing the continuous evolution of states. DiNo is based on the discretise-and-validate approach and uses the novel Staged Relaxed Planning Graph+ (SRPG+) heuristic, which is introduced in this paper. Although several planners have been developed to work with subsets of PDDL+ features, or restricted forms of processes, DiNo is currently the only heuristic planner capable of handling non-linear system dynamics combined with the full PDDL+ feature set.},
   file      = {:paper_library/heuristic_planning_pddl+.pdf:PDF},
   isbn      = {9781577357704},
@@ -572,13 +570,13 @@ achieve state-of-the-art performance in non-linear planning.},
   url          = {https://ojs.aaai.org/index.php/AAAI/article/view/4764},
 }
 
-@InProceedings{Garrido,
+@InProceedings{Garrido2002,
   author    = {Antonio Garrido and Maria Fox and  and Derek and Long},
-  title     = {A Temporal Planning System for Durative Actions of PDDL2.1},
   booktitle = {Proceedings of the 15th Eureopean Conference on Artificial Intelligence, ECAI'2002},
+  title     = {A Temporal Planning System for Durative Actions of PDDL2.1},
   year      = {2002},
-  pages     = {586-590},
   month     = {01},
+  pages     = {586-590},
   abstract  = {Many planning domains have temporal features that can 2 MOTIVATION
 be expressed as durations associated with actions. Unfortunately, the
 conservative model of actions of most temporal planners is not ap- Unlike PDDL, PDDL2.1 allows the modelling of temporal planning},
@@ -629,109 +627,109 @@ conservative model of actions of most temporal planners is not ap- Unlike PDDL, 
 
 @InProceedings{Halsey2003,
   author    = {Keith Halsey, Derek Long, Maria Fox},
-  title     = {Isolating Where Planning and Scheduling Interact},
   booktitle = {Proceedings from the 22nd UK Planning and Scheduling Special Interest Group (PlanSIG'03)},
+  title     = {Isolating Where Planning and Scheduling Interact},
   year      = {2003},
   pages     = {104-114},
-  file      = {:paper_library/isolating_planning_scheduling.pdf:PDF},
-  keywords  = {temporal, task, planner, analysis},
-  review    = {Analysis of problem:
+  comment   = {Analysis of problem:
 
 Separates planning and scheduling where temporal constraints affect the choice of action.},
+  file      = {:paper_library/isolating_planning_scheduling.pdf:PDF},
+  keywords  = {temporal, task, planner, analysis},
 }
 
-@InProceedings{10.5555/3036969.3036977,
+@InProceedings{Long2003,
   author    = {Long, Derek and Fox, Maria},
-  title     = {Exploiting a Graphplan Framework in Temporal Planning},
   booktitle = {Proceedings of the Thirteenth International Conference on International Conference on Automated Planning and Scheduling},
+  title     = {Exploiting a Graphplan Framework in Temporal Planning},
   year      = {2003},
-  series    = {ICAPS'03},
   pages     = {52–61},
   publisher = {AAAI Press},
+  series    = {ICAPS'03},
   abstract  = {Graphplan (Blum & Furst 1995) has proved a popular and successful basis for a succession of extensions. An extension to handle temporal planning is a natural one to consider, because of the seductively time-like structure of the layers in the plan graph. TGP (Smith & Weld 1999) and TPSys (Garrido, Onaind\'{\i}a, & Barber 2001; Garrido, Fox, & Long 2002) are both examples of temporal planners that have exploited the Graphplan foundation. However, both of these systems (including both versions of TPSys) exploit the graph to represent a uniform flow of time. In this paper we describe an alternative approach, in which the graph is used to represent the purely logical structuring of the plan, with temporal constraints being managed separately (although not independently). The approach uses a linear constraint solver to ensure that temporal durations are correctly respected. The resulting planner offers an interesting alternative to the other approaches, offering an important extension in expressive power.},
+  comment   = {Action translator, LPGP
+Separates durative actions into 3 actions over start, interval, and end},
   file      = {:paper_library/graphplan_temporal_planning.pdf:PDF},
   isbn      = {1577351878},
   keywords  = {temporal, task, planning, graphplan, actions},
   location  = {Trento, Italy},
   numpages  = {10},
-  review    = {Action translator, LPGP
-Separates durative actions into 3 actions over start, interval, and end},
 }
 
-@InProceedings{article,
+@InProceedings{Halsey2004,
   author    = {Halsey, Keith and Long, Derek and Fox, Maria},
-  title     = {CRIKEY - A Temporal Planner Looking at the Integration of Scheduling and Planning},
   booktitle = {Proceedings of the Workshop on Integreation Scheduling Into Planning at 13th International Conference on Automated Planning and Sche4duling (ICAPS'03)},
+  title     = {CRIKEY - A Temporal Planner Looking at the Integration of Scheduling and Planning},
   year      = {2004},
-  series    = {ICAPS},
   month     = {01},
-  file      = {:paper_library/crikey.pdf:PDF},
-  keywords  = {temporal, task, planning, crikey},
-  review    = {Introduces CRIKEY planner
+  series    = {ICAPS},
+  comment   = {Introduces CRIKEY planner
 Planner separates logical from temporal reasoning
 Part of initial work on making a structured planner for PDDL2.1 domains},
+  file      = {:paper_library/crikey.pdf:PDF},
+  keywords  = {temporal, task, planning, crikey},
 }
 
-@InProceedings{10.5555/1661445.1661714,
+@InProceedings{Coles2009,
   author    = {Coles, Amanda and Coles, Andrew and Fox, Maria and Long, Derek},
-  title     = {Temporal Planning in Domains with Linear Processes},
   booktitle = {Proceedings of the 21st International Joint Conference on Artificial Intelligence},
+  title     = {Temporal Planning in Domains with Linear Processes},
   year      = {2009},
-  series    = {IJCAI'09},
-  pages     = {1671–1676},
   address   = {San Francisco, CA, USA},
+  pages     = {1671–1676},
   publisher = {Morgan Kaufmann Publishers Inc.},
+  series    = {IJCAI'09},
   abstract  = {We consider the problem of planning in domains with continuous linear numeric change. Such change cannot always be adequately modelled by discretisation and is a key facet of many interesting problems. We show how a forward-chaining temporal planner can be extended to reason with actions with continuous linear effects. We extend a temporal planner to handle numeric values using linear programming. We show how linear continuous change can be integrated into the same linear program and we discuss how a temporal-numeric heuristic can be used to provide the search guidance necessary to underpin continuous planning. We present results to show that the approach can effectively handle duration-dependent change and numeric variables subject to continuous linear change.},
+  comment   = {COLIN paper
+Conference version, journal article is COLIN: Planning with Continuous Linear Numeric Change},
   file      = {:paper_library/colin_conference.pdf:PDF},
   keywords  = {temporal, task, planning, colin},
   location  = {Pasadena, California, USA},
   numpages  = {6},
-  review    = {COLIN paper
-Conference version, journal article is COLIN: Planning with Continuous Linear Numeric Change},
 }
 
-@Article{Coles_Coles_Fox_Long_2021,
+@Article{Coles2010,
   author       = {Coles, Amanda and Coles, Andrew and Fox, Maria and Long, Derek},
-  title        = {Forward-Chaining Partial-Order Planning},
   journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Forward-Chaining Partial-Order Planning},
   year         = {2010},
-  volume       = {20},
+  month        = {May},
   number       = {1},
   pages        = {42-49},
-  month        = {May},
-  abstractnote = { &lt;p&gt; Over the last few years there has been a revival of interest in the idea of least-commitment planning with a number of researchers returning to the partial-order planning approaches of UCPOP and VHPOP. In this paper we explore the potential of a forward-chaining state-based search strategy to support partial-order planning in the solution of temporal-numeric problems. Our planner, POPF, is built on the foundations of grounded forward search, in combination with linear programming to handle continuous linear numeric change. To achieve a partial ordering we delay commitment to ordering decisions, timestamps and the values of numeric parameters, managing sets of constraints as actions are started and ended. In the context of a partially ordered collection of actions, constructing the linear program is complicated and we propose an efficient method for achieving this. Our late-commitment approach achieves flexibility, while benefiting from the informative search control of forward planning, and allows temporal and metric decisions to be made - as is most efficient - by the LP solver rather than by the discrete reasoning of the planner. We compare POPF with the approach of constructing a sequenced plan and then lifting a partial order from it, showing that our approach can offer improvements in terms of makespan, and time to find a solution, in several benchmark domains. &lt;/p&gt; },
+  volume       = {20},
+  abstractnote = {&lt;p&gt; Over the last few years there has been a revival of interest in the idea of least-commitment planning with a number of researchers returning to the partial-order planning approaches of UCPOP and VHPOP. In this paper we explore the potential of a forward-chaining state-based search strategy to support partial-order planning in the solution of temporal-numeric problems. Our planner, POPF, is built on the foundations of grounded forward search, in combination with linear programming to handle continuous linear numeric change. To achieve a partial ordering we delay commitment to ordering decisions, timestamps and the values of numeric parameters, managing sets of constraints as actions are started and ended. In the context of a partially ordered collection of actions, constructing the linear program is complicated and we propose an efficient method for achieving this. Our late-commitment approach achieves flexibility, while benefiting from the informative search control of forward planning, and allows temporal and metric decisions to be made - as is most efficient - by the LP solver rather than by the discrete reasoning of the planner. We compare POPF with the approach of constructing a sequenced plan and then lifting a partial order from it, showing that our approach can offer improvements in terms of makespan, and time to find a solution, in several benchmark domains. &lt;/p&gt;},
+  comment      = {Extends from COLIN},
   file         = {:paper_library/popf.pdf:PDF},
   keywords     = {temporal, task, planning, popf},
-  review       = {Extends from COLIN},
   url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/13403},
 }
 
-@InProceedings{10.5555/3038485.3038491,
+@InProceedings{Coles2011,
   author    = {Coles, Amanda and Coles, Andrew and Clark, Allan and Gilmore, Stephen},
-  title     = {Cost-Sensitive Concurrent Planning under Duration Uncertainty for Service-Level Agreements},
   booktitle = {Proceedings of the Twenty-First International Conference on International Conference on Automated Planning and Scheduling},
+  title     = {Cost-Sensitive Concurrent Planning under Duration Uncertainty for Service-Level Agreements},
   year      = {2011},
-  series    = {ICAPS'11},
   pages     = {34–41},
   publisher = {AAAI Press},
+  series    = {ICAPS'11},
   abstract  = {This paper brings together work in stochastic modelling, using the process algebra PEPA, and work in automated planning. Stochastic modelling has been concerned with verification of system performance metrics for some time: given a model of a system, determining whether it will meet a service-level agreement (SLA). For example, whether a given sequence of transitions on a network will complete within 5 seconds 80% of the time. The problem of deciding how to reconfigure the system most cost-effectively when the SLA cannot be met has not been widely explored: it is currently solved manually. Inspired by this, we consider how planning can be used to automate the configuration of service-oriented systems. Configuring these stochastic systems presents new challenges to planning: building plans that meet SLAs, but also have low cost. To this end, we present a domain-independent planner for planning problems with action costs and stochastic durations, and show how this can be used to solve both traditional planning domains, and within the framework of configuring a larger process algebra model.},
+  comment   = {Supports cost optimization},
   file      = {:paper_library/popf2.pdf:PDF},
   keywords  = {temporal, task, planning, popf2},
   location  = {Freiburg, Germany},
   numpages  = {8},
-  review    = {Supports cost optimization},
 }
 
-@Article{10.5555/2387933.2387934,
+@Article{Coles2012,
   author     = {Coles, Amanda and Coles, Andrew and Fox, Maria and Long, Derek},
-  title      = {COLIN: Planning with Continuous Linear Numeric Change},
   journal    = {J. Artif. Int. Res.},
+  title      = {COLIN: Planning with Continuous Linear Numeric Change},
   year       = {2012},
-  volume     = {44},
+  issn       = {1076-9757},
+  month      = {may},
   number     = {1},
   pages      = {1–96},
-  month      = {may},
-  issn       = {1076-9757},
+  volume     = {44},
   abstract   = {In this paper we describe COLIN, a forward-chaining heuristic search planner, capable of reasoning with COntinuous LINear numeric change, in addition to the full temporal semantics of PDDL2.1. Through this work we make two advances to the state-of-the-art in terms of expressive reasoning capabilities of planners: the handling of continuous linear change, and the handling of duration-dependent effects in combination with duration inequalities, both of which require tightly coupled temporal and numeric reasoning during planning. COLIN combines FF-style forward chaining search, with the use of a Linear Program (LP) to check the consistency of the interacting temporal and numeric constraints at each state. The LP is used to compute bounds on the values of variables in each state, reducing the range of actions that need to be considered for application. In addition, we develop an extension of the Temporal Relaxed Planning Graph heuristic of CRIKEY3, to support reasoning directly with continuous change. We extend the range of task variables considered to be suitable candidates for specifying the gradient of the continuous numeric change effected by an action. Finally, we explore the potential for employing mixed integer programming as a tool for optimising the timestamps of the actions in the plan, once a solution has been found. To support this, we further contribute a selection of extended benchmark domains that include continuous numeric effects. We present results for COLIN that demonstrate its scalability on a range of benchmarks, and compare to existing state-of-the-art planners.},
   address    = {El Segundo, CA, USA},
   file       = {:paper_library/colin_journal.pdf:PDF},
@@ -741,20 +739,20 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   publisher  = {AI Access Foundation},
 }
 
-@InProceedings{10.5555/3038546.3038579,
+@InProceedings{Tierney2012,
   author    = {Tierney, Kevin and Coles, Amanda and Coles, Andrew and Kroer, Christian and Britt, Adam M. and Jensen, Rune M\o{}ller},
-  title     = {Automated Planning for Liner Shipping Fleet Repositioning},
   booktitle = {Proceedings of the Twenty-Second International Conference on International Conference on Automated Planning and Scheduling},
+  title     = {Automated Planning for Liner Shipping Fleet Repositioning},
   year      = {2012},
-  series    = {ICAPS'12},
   pages     = {279–287},
   publisher = {AAAI Press},
+  series    = {ICAPS'12},
   abstract  = {The Liner Shipping Fleet Repositioning Problem (LSFRP) poses a large financial burden on liner shipping firms. During repositioning, vessels are moved between services in a liner shipping network. The LSFRP is characterized by chains of interacting activities, many of which have costs that are a function of their duration; for example, sailing slowly between two ports is cheaper than sailing quickly. Despite its great industrial importance, the LSFRP has received little attention in the literature. We show how the LSFRP can be solved sub-optimally using the planner POPF and optimally with a mixed-integer program (MIP) and a novel method called Temporal Optimization Planning (TOP). We evaluate the performance of each of these techniques on a dataset of real-world instances from our industrial collaborator, and show that automated planning scales to the size of problems faced by industry.},
+  comment   = {Timed initial literal abstraction feature from OPTIC outlined in this paper},
   file      = {:paper_library/til_abstraction.pdf:PDF},
   keywords  = {temporal, task, planning, til},
   location  = {Atibaia, S\~{a}o Paulo, Brazil},
   numpages  = {9},
-  review    = {Timed initial literal abstraction feature from OPTIC outlined in this paper},
 }
 
 @InProceedings{Fischer2010,
@@ -785,25 +783,25 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
 
 @InProceedings{Dilkina2011UpgradingSP,
   author    = {Bistra N. Dilkina and Katherine J. Lai and Carla P. Gomes},
-  title     = {Upgrading Shortest Paths in Networks},
   booktitle = {CPAIOR},
+  title     = {Upgrading Shortest Paths in Networks},
   year      = {2011},
   file      = {:paper_library/upgrading_shortest_paths_networks.pdf:PDF},
-  keywords  = {graph, upgradable,},
+  keywords  = {graph, upgradable},
 }
 
 @Article{FRIEZE202146,
   author   = {Alan Frieze and Tomasz Tkocz},
-  title    = {Shortest paths with a cost constraint: A probabilistic analysis},
   journal  = {Discrete Applied Mathematics},
+  title    = {Shortest paths with a cost constraint: A probabilistic analysis},
   year     = {2021},
-  volume   = {302},
-  pages    = {46-53},
   issn     = {0166-218X},
+  pages    = {46-53},
+  volume   = {302},
   abstract = {We consider a constrained version of the shortest path problem on the complete graphs whose edges have independent random lengths and costs. We establish the asymptotic value of the minimum length as a function of the cost-budget within a wide range.},
   doi      = {https://doi.org/10.1016/j.dam.2021.06.001},
   file     = {:paper_library/shortest_path_cost_constraint_probabilistic_analysis.pdf:PDF},
-  keywords = {graph, upgradable,},
+  keywords = {graph, upgradable},
   url      = {https://www.sciencedirect.com/science/article/pii/S0166218X21002390},
 }
 
@@ -840,13 +838,13 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
 
 @Article{Muller2015,
   author    = {Rudolf Muller and Marc Uetz},
-  title     = {Shortest Path to Mechanical Design},
   journal   = {Gems of Combinatorial Optimization and Graph Algorithms},
+  title     = {Shortest Path to Mechanical Design},
   year      = {2015},
   pages     = {83-94},
   doi       = {10.1017/S0890060415000311},
   file      = {:paper_library/shortest_path_mechanism_design.pdf:PDF},
-  keywords  = {graph, upgradable,},
+  keywords  = {graph, upgradable},
   publisher = {Cambridge University Press},
 }
 
@@ -897,15 +895,15 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
 
 @Article{5639015,
   author   = {Couprie, Camille and Grady, Leo and Najman, Laurent and Talbot, Hugues},
-  title    = {Power Watershed: A Unifying Graph-Based Optimization Framework},
   journal  = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  title    = {Power Watershed: A Unifying Graph-Based Optimization Framework},
   year     = {2011},
-  volume   = {33},
   number   = {7},
   pages    = {1384-1399},
+  volume   = {33},
   doi      = {10.1109/TPAMI.2010.200},
   file     = {:paper_library/power_watershed.pdf:PDF},
-  keywords = {graph, upgradable,},
+  keywords = {graph, upgradable},
 }
 
 @InProceedings{7139603,
@@ -944,28 +942,89 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
 
 @Article{doi:10.1146/annurev-control-061920-093753,
   author   = {Gammell, Jonathan D. and Strub, Marlin P.},
-  title    = {Asymptotically Optimal Sampling-Based Motion Planning Methods},
   journal  = {Annual Review of Control, Robotics, and Autonomous Systems},
+  title    = {Asymptotically Optimal Sampling-Based Motion Planning Methods},
   year     = {2021},
-  volume   = {4},
   number   = {1},
   pages    = {295-318},
-  abstract = { Motion planning is a fundamental problem in autonomous robotics that requires finding a path to a specified goal that avoids obstacles and takes into account a robot's limitations and constraints. It is often desirable for this path to also optimize a cost function, such as path length. Formal path-quality guarantees for continuously valued search spaces are an active area of research interest. Recent results have proven that some sampling-based planning methods probabilistically converge toward the optimal solution as computational effort approaches infinity. This article summarizes the assumptions behind these popular asymptotically optimal techniques and provides an introduction to the significant ongoing research on this topic. },
+  volume   = {4},
+  abstract = {Motion planning is a fundamental problem in autonomous robotics that requires finding a path to a specified goal that avoids obstacles and takes into account a robot's limitations and constraints. It is often desirable for this path to also optimize a cost function, such as path length. Formal path-quality guarantees for continuously valued search spaces are an active area of research interest. Recent results have proven that some sampling-based planning methods probabilistically converge toward the optimal solution as computational effort approaches infinity. This article summarizes the assumptions behind these popular asymptotically optimal techniques and provides an introduction to the significant ongoing research on this topic.},
   doi      = {10.1146/annurev-control-061920-093753},
   eprint   = {https://doi.org/10.1146/annurev-control-061920-093753},
+  file     = {:paper_library/ao_motion_planning_annual_review.pdf:PDF},
   keywords = {asymptotically optimal, motion, planning},
-  url      = { 
-        https://doi.org/10.1146/annurev-control-061920-093753
-    
-},
+  url      = {https://doi.org/10.1146/annurev-control-061920-093753},
+}
+
+@InProceedings{pmlr-v28-chen13a,
+  author    = {Chen, Wei and Wang, Yajun and Yuan, Yang},
+  title     = {Combinatorial Multi-Armed Bandit: General Framework and Applications},
+  booktitle = {Proceedings of the 30th International Conference on Machine Learning},
+  year      = {2013},
+  editor    = {Dasgupta, Sanjoy and McAllester, David},
+  volume    = {28},
+  number    = {1},
+  series    = {Proceedings of Machine Learning Research},
+  pages     = {151--159},
+  address   = {Atlanta, Georgia, USA},
+  month     = {17--19 Jun},
+  publisher = {PMLR},
+  abstract  = {We define a general framework for a large class of combinatorial multi-armed bandit (CMAB) problems, where simple arms with unknown istributions  form \em super arms. In each round, a super arm is played and the outcomes of its related simple arms are observed, which helps the selection of super arms in future rounds. The reward of the super arm depends on the outcomes of played arms, and it only needs to satisfy two mild assumptions, which allow a large class of nonlinear reward instances. We assume the availability of an (α,β)-approximation oracle that takes the  means of the distributions of arms and outputs a super arm that with probability βgenerates  an αfraction of the optimal expected reward. The objective of a CMAB algorithm is to minimize \em (α,β)-approximation regret, which is the difference in total expected reward between the αβfraction of expected reward when always playing the optimal super arm, and the expected reward of playing super arms according to the algorithm. We provide CUCB algorithm that achieves O(\log n) regret, where n is the number of rounds played, and we further provide distribution-independent bounds for a large class of reward functions. Our regret analysis is tight in that it matches the bound for classical MAB problem up to a constant factor, and it significantly improves the regret bound in a recent paper on combinatorial bandits with linear rewards. We apply our CMAB framework to two new applications, probabilistic maximum coverage (PMC) for online advertising and social influence maximization for viral marketing, both having nonlinear reward structures.},
+  file      = {:paper_library/combinatorial_mab.pdf:PDF},
+  keywords  = {reinforcement learning, multi-armed bandit, combinatorial bandit},
+  pdf       = {http://proceedings.mlr.press/v28/chen13a.pdf},
+  url       = {https://proceedings.mlr.press/v28/chen13a.html},
+}
+
+@Article{ab6cf163be1a4160a1b6a4224c6132f7,
+  author   = {Huasen Wu and R. Srikant and Xin Liu and Chong Jiang},
+  title    = {Algorithms with logarithmic or sublinear regret for constrained contextual bandits},
+  journal  = {Advances in Neural Information Processing Systems},
+  year     = {2015},
+  volume   = {2015-January},
+  pages    = {433--441},
+  issn     = {1049-5258},
+  note     = {Funding Information: This research was supported in part by NSF Grants CCF-1423542, CNS-1457060, CNS-1547461, and AFOSR MURI Grant FA 9550-10-1-0573.; 29th Annual Conference on Neural Information Processing Systems, NIPS 2015 ; Conference date: 07-12-2015 Through 12-12-2015},
+  abstract = {We study contextual bandits with budget and time constraints, referred to as constrained contextual bandits. The time and budget constraints significantly complicate the exploration and exploitation tradeoff because they introduce complex coupling among contexts over time. To gain insight, we first study unit-cost systems with known context distribution. When the expected rewards are known, we develop an approximation of the oracle, referred to Adaptive-Linear-Programming (ALP), which achieves near-optimality and only requires the ordering of expected rewards. With these highly desirable features, we then combine ALP with the upper-confidence-bound (UCB) method in the general case where the expected rewards are unknown a priori. We show that the proposed UCB-ALP algorithm achieves logarithmic regret except for certain boundary cases. Further, we design algorithms and obtain similar regret bounds for more general systems with unknown context distribution and heterogeneous costs. To the best of our knowledge, this is the first work that shows how to achieve logarithmic regret in constrained contextual bandits. Moreover, this work also sheds light on the study of computationally efficient algorithms for general constrained contextual bandits.},
+  file     = {:paper_library/log_sublinear_regret_constrained_context_mab.pdf:PDF},
+  keywords = {reinforcement learning, multi-armed bandit, contextual bandit, restricted context},
+  language = {English (US)},
+}
+
+@InProceedings{Bouneffouf2017,
+  author    = {Bouneffouf, Djallel and Rish, Irina and Cecchi, Guillermo and Feraud, Raphaël},
+  title     = {Context Attentive Bandits: Contextual Bandit with Restricted Context},
+  booktitle = {Proceedings of the Twnty-Sixth International Joint COnference on Artificial Intelligence},
+  year      = {2017},
+  month     = {08},
+  doi       = {10.24963/ijcai.2017/203},
+  file      = {:paper_library/context_attentive_mab.pdf:PDF},
+  keywords  = {reinforcement learning, multi-armed bandit, contextual bandit},
+}
+
+@Book{suttonbarto2018,
+  author    = {Sutton, Richard S. and Barto, Andrew G.},
+  publisher = {The MIT Press},
+  title     = {Reinforcement Learning: An Introduction},
+  year      = {2018},
+  edition   = {Second},
+  added-at  = {2019-07-13T10:11:53.000+0200},
+  biburl    = {https://www.bibsonomy.org/bibtex/2f46601cf8b13d39d1378af0d79438b12/lanteunis},
+  comment   = {Chapter 4 has a good summary of general thompson sampling},
+  interhash = {ac6b144aaec1819919a2fba9f705c852},
+  intrahash = {f46601cf8b13d39d1378af0d79438b12},
+  keywords  = {reinforcement learning, multi-armed bandit},
+  timestamp = {2019-07-13T10:11:53.000+0200},
+  url       = {http://incompleteideas.net/book/the-book-2nd.html},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
-@Comment{jabref-meta: groupstree:
+@Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
-1 KeywordGroup:Temporal Task Planning\;0\;keywords\;temporal, task\;0\;0\;;
-1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;;
-1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable,\;0\;0\;;
-1 KeywordGroup:AO Planning\;0\;keywords\;asymptotically optimal, motion, planning\;0\;0\;;
+1 KeywordGroup:Temporal Task Planning\;0\;keywords\;temporal, task\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;1\;\;\;\;;
+1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable,\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:AO Planning\;0\;keywords\;asymptotically optimal, motion, planning\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:Multi-Armed Bandits\;0\;keywords\;reinforcement learning, multi-armed bandit\;0\;0\;1\;\;\;\;;
 }

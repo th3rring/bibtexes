@@ -1,0 +1,246 @@
+@InProceedings{Della2009,
+  author    = {Giuseppe Della and Penna and Daniele and Magazzeni and Fabio and Mercorio and Department of Computer Science and University of L’Aquila and Italy},
+  title     = {UPMurphi: A Tool for Universal Planning on PDDL+ Problems},
+  booktitle = {Proceedings of the Nineteenth International Conference on Automated Planning and Scheduling},
+  year      = {2009},
+  abstract  = {1.1 Motivation},
+  file      = {:paper_library/upmurphi.pdf:PDF},
+  keywords  = {temporal, task, planning, upmurphi},
+}
+
+@InProceedings{Benton2012,
+  author       = {Benton, J. and Coles, Amanda and Coles, Andrew},
+  booktitle    = {roceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Temporal Planning with Preferences and Time-Dependent Continuous Costs},
+  year         = {2012},
+  month        = {May},
+  number       = {1},
+  pages        = {2-10},
+  volume       = {22},
+  abstractnote = {&lt;p&gt; Temporal planning methods usually focus on the objective of minimizing makespan. Unfortunately, this misses a large class of planning problems where it is important to consider a wider variety of temporal and non-temporal preferences, making makespan lower-order concern. In this paper we consider modeling and reasoning with plan quality metrics that are not directly correlated with plan makespan, building on the planner POPF. We begin with the preferences defined in PDDL3, and present a mixed integer programming encoding to manage the the interaction between the hard temporal constraints for plan steps, and soft temporal constraints for preferences. To widen the support of metrics that can be expressed directly in PDDL, we then discuss an extension to soft-deadlines with continuous cost functions, avoiding the need to approximate these with several PDDL3 discrete-cost preferences. We demonstrate the success of our new planner on the benchmark temporal planning problems with preferences, showing that it is the state-of-the-art for such problems. We then analyze the benefits of reasoning with continuous (versus discretized) models of domains with continuous cost functions, showing the improvement in solution quality afforded through making the continuous cost function directly available to the planner. &lt;/p&gt;},
+  comment      = {OPTIC
+Question: Can durations be specified for grounded actions?},
+  file         = {:paper_library/optic.pdf:PDF},
+  groups       = {therring:1},
+  journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  keywords     = {temporal, task, planning, optic},
+  url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/13509},
+}
+
+@InProceedings{Heinz2021,
+  author       = {Heinz, Alexander and Wehrle, Martin and Bogomolov, Sergiy and Magazzeni, Daniele and Greitschus, Marius and Podelski, Andreas},
+  booktitle    = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Temporal Planning as Refinement-Based Model Checking},
+  year         = {2021},
+  month        = {May},
+  number       = {1},
+  pages        = {195-199},
+  volume       = {29},
+  abstractnote = {&lt;p&gt;Planning as model checking based on source-to-source compilations has found increasing attention. Previously proposed approaches for temporal and hybrid planning are based on &lt;em&gt;static&lt;/em&gt; translations, in the sense that the resulting model checking problems are uniquely defined by the given input planning problems. As a drawback, the translations can become too large to be efficiently solvable. In this paper, we address propositional temporal planning, lifting static translations to a more flexible framework. Our framework is based on a refinement cycle that allows for adaptively computing suitable translations of increasing size. Our experiments on temporal IPC domains show that the resulting translations to timed automata often become succinct, resulting in promising performance when applied with the directed model checker MCTA.&lt;/p&gt;},
+  file         = {:paper_library/temporal_planning_model_checking.pdf:PDF},
+  journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  keywords     = {temporal, task, planning},
+  url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/3476},
+}
+
+@InProceedings{Coles2008,
+  author    = {Andrew Coles and Maria Fox and Derek Long and Amanda Smith and and Department of ComputerInformation Sciences and University of Strathclyde and Glasgow and G1 1XH and UK},
+  booktitle = {Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence (2008)},
+  title     = {Planning with Problems Requiring Temporal Coordination},
+  year      = {2008},
+  pages     = {137-144},
+  abstract  = {Fox 2004) and used in this work, refers to problems whose
+solutions can benefit from concurrent activity, subsuming re-},
+  comment   = {Introduced CRIKEY3, extended version of CRIKEY planner to handle timed initial literals and PDDL2.1 features},
+  file      = {:paper_library/planning_problems_temporal_coordination.pdf:PDF},
+  journal   = {2008 15th International Symposium on Temporal Representation and Reasoning},
+  keywords  = {temporal, task, planning, pddl2.1},
+}
+
+@InProceedings{Denenberg2021,
+  author       = {Denenberg, Elad and Coles, Amanda},
+  booktitle    = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Mixed Discrete Continuous Non-Linear Planning through Piecewise Linear Approximation},
+  year         = {2021},
+  month        = {May},
+  number       = {1},
+  pages        = {137-145},
+  volume       = {29},
+  abstract     = {Reasoning with continuously changing numeric quantities is
+vital to applying planners in many real-world scenarios. Sev-
+eral planners capable of doing this have been developed re-
+cently. Scalability remains a challenge for such planners, es-
+pecially those that reason with non-linear continuous change.
+In this paper, we present a novel approach to reasoning with
+non-linear domains. Bounding the problem using linear over
+and under-estimators, allows us to use scalable planners that
+handle linear change to find plans for non-linear domains. We
+compare the performance of our approach to existing plan-
+ners on several domains and demonstrate that our planner can
+achieve state-of-the-art performance in non-linear planning.},
+  abstractnote = {&lt;p&gt;Reasoning with continuously changing numeric quantities is vital to applying planners in many real-world scenarios. Several planners capable of doing this have been developed recently. Scalability remains a challenge for such planners, especially those that reason with non-linear continuous change. In this paper, we present a novel approach to reasoning with non-linear domains. Bounding the problem using linear over and under-estimators, allows us to use scalable planners that handle linear change to find plans for non-linear domains. We compare the performance of our approach to existing planners on several domains and demonstrate that our planner can achieve state-of-the-art performance in non-linear planning.&lt;/p&gt;},
+  file         = {:paper_library/optic++.pdf:PDF},
+  journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  keywords     = {temporal, task, planning, optic++},
+  url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/3469},
+}
+
+@InProceedings{Piotrowski2016,
+  author    = {Piotrowski, Wiktor and Fox, Maria and Long, Derek and Magazzeni, Daniele and Mercorio, Fabio},
+  booktitle = {Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence},
+  title     = {Heuristic Planning for PDDL+ Domains},
+  year      = {2016},
+  address   = {New York, New York, USA},
+  pages     = {3213–3219},
+  publisher = {AAAI Press},
+  series    = {IJCAI'16},
+  abstract  = {Planning with hybrid domains modelled in PDDL+ has been gaining research interest in the Automated Planning community in recent years. Hybrid domain models capture a more accurate representation of real world problems that involve continuous processes than is possible using discrete systems. However, solving problems represented as PDDL+ domains is very challenging due to the construction of complex system dynamics, including non-linear processes and events. In this paper we introduce DiNo, a new planner capable of tackling complex problems with non-linear system dynamics governing the continuous evolution of states. DiNo is based on the discretise-and-validate approach and uses the novel Staged Relaxed Planning Graph+ (SRPG+) heuristic, which is introduced in this paper. Although several planners have been developed to work with subsets of PDDL+ features, or restricted forms of processes, DiNo is currently the only heuristic planner capable of handling non-linear system dynamics combined with the full PDDL+ feature set.},
+  file      = {:paper_library/heuristic_planning_pddl+.pdf:PDF},
+  isbn      = {9781577357704},
+  keywords  = {temporal, task, planning, pddl+},
+  numpages  = {7},
+}
+
+@InProceedings{Garrido2002,
+  author    = {Antonio Garrido and Maria Fox and  and Derek and Long},
+  booktitle = {Proceedings of the 15th Eureopean Conference on Artificial Intelligence, ECAI'2002},
+  title     = {A Temporal Planning System for Durative Actions of PDDL2.1},
+  year      = {2002},
+  month     = {01},
+  pages     = {586-590},
+  abstract  = {Many planning domains have temporal features that can 2 MOTIVATION
+be expressed as durations associated with actions. Unfortunately, the
+conservative model of actions of most temporal planners is not ap- Unlike PDDL, PDDL2.1 allows the modelling of temporal planning},
+  file      = {:paper_library/temporal_planning_durative_actions_pddl2.1.pdf:PDF},
+  keywords  = {temporal, task, planning, pddl2.1},
+}
+
+@InProceedings{Halsey2003,
+  author    = {Keith Halsey, Derek Long, Maria Fox},
+  booktitle = {Proceedings from the 22nd UK Planning and Scheduling Special Interest Group (PlanSIG'03)},
+  title     = {Isolating Where Planning and Scheduling Interact},
+  year      = {2003},
+  pages     = {104-114},
+  comment   = {Analysis of problem:
+
+Separates planning and scheduling where temporal constraints affect the choice of action.},
+  file      = {:paper_library/isolating_planning_scheduling.pdf:PDF},
+  keywords  = {temporal, task, planner, analysis},
+}
+
+@InProceedings{Long2003,
+  author    = {Long, Derek and Fox, Maria},
+  booktitle = {Proceedings of the Thirteenth International Conference on International Conference on Automated Planning and Scheduling},
+  title     = {Exploiting a Graphplan Framework in Temporal Planning},
+  year      = {2003},
+  pages     = {52–61},
+  publisher = {AAAI Press},
+  series    = {ICAPS'03},
+  abstract  = {Graphplan (Blum & Furst 1995) has proved a popular and successful basis for a succession of extensions. An extension to handle temporal planning is a natural one to consider, because of the seductively time-like structure of the layers in the plan graph. TGP (Smith & Weld 1999) and TPSys (Garrido, Onaind\'{\i}a, & Barber 2001; Garrido, Fox, & Long 2002) are both examples of temporal planners that have exploited the Graphplan foundation. However, both of these systems (including both versions of TPSys) exploit the graph to represent a uniform flow of time. In this paper we describe an alternative approach, in which the graph is used to represent the purely logical structuring of the plan, with temporal constraints being managed separately (although not independently). The approach uses a linear constraint solver to ensure that temporal durations are correctly respected. The resulting planner offers an interesting alternative to the other approaches, offering an important extension in expressive power.},
+  comment   = {Action translator, LPGP
+Separates durative actions into 3 actions over start, interval, and end},
+  file      = {:paper_library/graphplan_temporal_planning.pdf:PDF},
+  isbn      = {1577351878},
+  keywords  = {temporal, task, planning, graphplan, actions},
+  location  = {Trento, Italy},
+  numpages  = {10},
+}
+
+@InProceedings{Halsey2004,
+  author    = {Halsey, Keith and Long, Derek and Fox, Maria},
+  booktitle = {Proceedings of the Workshop on Integreation Scheduling Into Planning at 13th International Conference on Automated Planning and Sche4duling (ICAPS'03)},
+  title     = {CRIKEY - A Temporal Planner Looking at the Integration of Scheduling and Planning},
+  year      = {2004},
+  month     = {01},
+  series    = {ICAPS},
+  comment   = {Introduces CRIKEY planner
+Planner separates logical from temporal reasoning
+Part of initial work on making a structured planner for PDDL2.1 domains},
+  file      = {:paper_library/crikey.pdf:PDF},
+  keywords  = {temporal, task, planning, crikey},
+}
+
+@InProceedings{Coles2009,
+  author    = {Coles, Amanda and Coles, Andrew and Fox, Maria and Long, Derek},
+  booktitle = {Proceedings of the 21st International Joint Conference on Artificial Intelligence},
+  title     = {Temporal Planning in Domains with Linear Processes},
+  year      = {2009},
+  address   = {San Francisco, CA, USA},
+  pages     = {1671–1676},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  series    = {IJCAI'09},
+  abstract  = {We consider the problem of planning in domains with continuous linear numeric change. Such change cannot always be adequately modelled by discretisation and is a key facet of many interesting problems. We show how a forward-chaining temporal planner can be extended to reason with actions with continuous linear effects. We extend a temporal planner to handle numeric values using linear programming. We show how linear continuous change can be integrated into the same linear program and we discuss how a temporal-numeric heuristic can be used to provide the search guidance necessary to underpin continuous planning. We present results to show that the approach can effectively handle duration-dependent change and numeric variables subject to continuous linear change.},
+  comment   = {COLIN paper
+Conference version, journal article is COLIN: Planning with Continuous Linear Numeric Change},
+  file      = {:paper_library/colin_conference.pdf:PDF},
+  keywords  = {temporal, task, planning, colin},
+  location  = {Pasadena, California, USA},
+  numpages  = {6},
+}
+
+@Article{Coles2010,
+  author       = {Coles, Amanda and Coles, Andrew and Fox, Maria and Long, Derek},
+  journal      = {Proceedings of the International Conference on Automated Planning and Scheduling},
+  title        = {Forward-Chaining Partial-Order Planning},
+  year         = {2010},
+  month        = {May},
+  number       = {1},
+  pages        = {42-49},
+  volume       = {20},
+  abstractnote = {&lt;p&gt; Over the last few years there has been a revival of interest in the idea of least-commitment planning with a number of researchers returning to the partial-order planning approaches of UCPOP and VHPOP. In this paper we explore the potential of a forward-chaining state-based search strategy to support partial-order planning in the solution of temporal-numeric problems. Our planner, POPF, is built on the foundations of grounded forward search, in combination with linear programming to handle continuous linear numeric change. To achieve a partial ordering we delay commitment to ordering decisions, timestamps and the values of numeric parameters, managing sets of constraints as actions are started and ended. In the context of a partially ordered collection of actions, constructing the linear program is complicated and we propose an efficient method for achieving this. Our late-commitment approach achieves flexibility, while benefiting from the informative search control of forward planning, and allows temporal and metric decisions to be made - as is most efficient - by the LP solver rather than by the discrete reasoning of the planner. We compare POPF with the approach of constructing a sequenced plan and then lifting a partial order from it, showing that our approach can offer improvements in terms of makespan, and time to find a solution, in several benchmark domains. &lt;/p&gt;},
+  comment      = {Extends from COLIN},
+  file         = {:paper_library/popf.pdf:PDF},
+  keywords     = {temporal, task, planning, popf},
+  url          = {https://ojs.aaai.org/index.php/ICAPS/article/view/13403},
+}
+
+@InProceedings{Coles2011,
+  author    = {Coles, Amanda and Coles, Andrew and Clark, Allan and Gilmore, Stephen},
+  booktitle = {Proceedings of the Twenty-First International Conference on International Conference on Automated Planning and Scheduling},
+  title     = {Cost-Sensitive Concurrent Planning under Duration Uncertainty for Service-Level Agreements},
+  year      = {2011},
+  pages     = {34–41},
+  publisher = {AAAI Press},
+  series    = {ICAPS'11},
+  abstract  = {This paper brings together work in stochastic modelling, using the process algebra PEPA, and work in automated planning. Stochastic modelling has been concerned with verification of system performance metrics for some time: given a model of a system, determining whether it will meet a service-level agreement (SLA). For example, whether a given sequence of transitions on a network will complete within 5 seconds 80% of the time. The problem of deciding how to reconfigure the system most cost-effectively when the SLA cannot be met has not been widely explored: it is currently solved manually. Inspired by this, we consider how planning can be used to automate the configuration of service-oriented systems. Configuring these stochastic systems presents new challenges to planning: building plans that meet SLAs, but also have low cost. To this end, we present a domain-independent planner for planning problems with action costs and stochastic durations, and show how this can be used to solve both traditional planning domains, and within the framework of configuring a larger process algebra model.},
+  comment   = {Supports cost optimization},
+  file      = {:paper_library/popf2.pdf:PDF},
+  keywords  = {temporal, task, planning, popf2},
+  location  = {Freiburg, Germany},
+  numpages  = {8},
+}
+
+@Article{Coles2012,
+  author     = {Coles, Amanda and Coles, Andrew and Fox, Maria and Long, Derek},
+  journal    = {J. Artif. Int. Res.},
+  title      = {COLIN: Planning with Continuous Linear Numeric Change},
+  year       = {2012},
+  issn       = {1076-9757},
+  month      = {may},
+  number     = {1},
+  pages      = {1–96},
+  volume     = {44},
+  abstract   = {In this paper we describe COLIN, a forward-chaining heuristic search planner, capable of reasoning with COntinuous LINear numeric change, in addition to the full temporal semantics of PDDL2.1. Through this work we make two advances to the state-of-the-art in terms of expressive reasoning capabilities of planners: the handling of continuous linear change, and the handling of duration-dependent effects in combination with duration inequalities, both of which require tightly coupled temporal and numeric reasoning during planning. COLIN combines FF-style forward chaining search, with the use of a Linear Program (LP) to check the consistency of the interacting temporal and numeric constraints at each state. The LP is used to compute bounds on the values of variables in each state, reducing the range of actions that need to be considered for application. In addition, we develop an extension of the Temporal Relaxed Planning Graph heuristic of CRIKEY3, to support reasoning directly with continuous change. We extend the range of task variables considered to be suitable candidates for specifying the gradient of the continuous numeric change effected by an action. Finally, we explore the potential for employing mixed integer programming as a tool for optimising the timestamps of the actions in the plan, once a solution has been found. To support this, we further contribute a selection of extended benchmark domains that include continuous numeric effects. We present results for COLIN that demonstrate its scalability on a range of benchmarks, and compare to existing state-of-the-art planners.},
+  address    = {El Segundo, CA, USA},
+  file       = {:paper_library/colin_journal.pdf:PDF},
+  issue_date = {May 2012},
+  keywords   = {temporal, task, planning, colin},
+  numpages   = {96},
+  publisher  = {AI Access Foundation},
+}
+
+@InProceedings{Tierney2012,
+  author    = {Tierney, Kevin and Coles, Amanda and Coles, Andrew and Kroer, Christian and Britt, Adam M. and Jensen, Rune M\o{}ller},
+  booktitle = {Proceedings of the Twenty-Second International Conference on International Conference on Automated Planning and Scheduling},
+  title     = {Automated Planning for Liner Shipping Fleet Repositioning},
+  year      = {2012},
+  pages     = {279–287},
+  publisher = {AAAI Press},
+  series    = {ICAPS'12},
+  abstract  = {The Liner Shipping Fleet Repositioning Problem (LSFRP) poses a large financial burden on liner shipping firms. During repositioning, vessels are moved between services in a liner shipping network. The LSFRP is characterized by chains of interacting activities, many of which have costs that are a function of their duration; for example, sailing slowly between two ports is cheaper than sailing quickly. Despite its great industrial importance, the LSFRP has received little attention in the literature. We show how the LSFRP can be solved sub-optimally using the planner POPF and optimally with a mixed-integer program (MIP) and a novel method called Temporal Optimization Planning (TOP). We evaluate the performance of each of these techniques on a dataset of real-world instances from our industrial collaborator, and show that automated planning scales to the size of problems faced by industry.},
+  comment   = {Timed initial literal abstraction feature from OPTIC outlined in this paper},
+  file      = {:paper_library/til_abstraction.pdf:PDF},
+  keywords  = {temporal, task, planning, til},
+  location  = {Atibaia, S\~{a}o Paulo, Brazil},
+  numpages  = {9},
+}
