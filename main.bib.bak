@@ -1,3 +1,4 @@
+% Encoding: UTF-8
 @Article{shome_2020,
   author      = {Rahul Shome and Kostas E. Bekris},
   title       = {Synchronized Multi-Arm Rearrangement Guided by Mode Graphs with Capacity Constraints},
@@ -906,28 +907,6 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {graph, upgradable},
 }
 
-@InProceedings{7139603,
-  author    = {Hauser, Kris},
-  title     = {Lazy collision checking in asymptotically-optimal motion planning},
-  booktitle = {2015 IEEE International Conference on Robotics and Automation (ICRA)},
-  year      = {2015},
-  pages     = {2951-2957},
-  doi       = {10.1109/ICRA.2015.7139603},
-  file      = {:paper_library/lazy_collision_checking_ao_mp.pdf:PDF},
-  keywords  = {asymptotically optimal, motion, planning},
-}
-
-@InProceedings{7419012,
-  author    = {Klemm, Sebastian and Oberländer, Jan and Hermann, Andreas and Roennau, Arne and Schamm, Thomas and Zollner, J. Marius and Dillmann, Rüdiger},
-  title     = {RRT∗-Connect: Faster, asymptotically optimal motion planning},
-  booktitle = {2015 IEEE International Conference on Robotics and Biomimetics (ROBIO)},
-  year      = {2015},
-  pages     = {1670-1677},
-  doi       = {10.1109/ROBIO.2015.7419012},
-  file      = {:paper_library/rrt*_connect.pdf:PDF},
-  keywords  = {asymptotically optimal, motion, planning},
-}
-
 @Article{8968352,
   author   = {Mashayekhi, Reza and Idris, Mohd Yamani Idna and Anisi, Mohammad Hossein and Ahmedy, Ismail and Ali, Ihsan},
   title    = {Informed RRT*-Connect: An Asymptotically Optimal Single-Query Path Planning Method},
@@ -970,9 +949,8 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   month     = {17--19 Jun},
   publisher = {PMLR},
   abstract  = {We define a general framework for a large class of combinatorial multi-armed bandit (CMAB) problems, where simple arms with unknown istributions  form \em super arms. In each round, a super arm is played and the outcomes of its related simple arms are observed, which helps the selection of super arms in future rounds. The reward of the super arm depends on the outcomes of played arms, and it only needs to satisfy two mild assumptions, which allow a large class of nonlinear reward instances. We assume the availability of an (α,β)-approximation oracle that takes the  means of the distributions of arms and outputs a super arm that with probability βgenerates  an αfraction of the optimal expected reward. The objective of a CMAB algorithm is to minimize \em (α,β)-approximation regret, which is the difference in total expected reward between the αβfraction of expected reward when always playing the optimal super arm, and the expected reward of playing super arms according to the algorithm. We provide CUCB algorithm that achieves O(\log n) regret, where n is the number of rounds played, and we further provide distribution-independent bounds for a large class of reward functions. Our regret analysis is tight in that it matches the bound for classical MAB problem up to a constant factor, and it significantly improves the regret bound in a recent paper on combinatorial bandits with linear rewards. We apply our CMAB framework to two new applications, probabilistic maximum coverage (PMC) for online advertising and social influence maximization for viral marketing, both having nonlinear reward structures.},
-  file      = {:paper_library/combinatorial_mab.pdf:PDF},
+  file      = {:paper_library/combinatorial_mab.pdf:PDF;chen13a.pdf:http\://proceedings.mlr.press/v28/chen13a.pdf:PDF},
   keywords  = {reinforcement learning, multi-armed bandit, combinatorial bandit},
-  pdf       = {http://proceedings.mlr.press/v28/chen13a.pdf},
   url       = {https://proceedings.mlr.press/v28/chen13a.html},
 }
 
@@ -1018,13 +996,45 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url       = {http://incompleteideas.net/book/the-book-2nd.html},
 }
 
+@Article{Karaman2011,
+  author    = {Sertac Karaman and Emilio Frazzoli},
+  title     = {Sampling-based algorithms for optimal motion planning},
+  journal   = {The International Journal of Robotics Research},
+  year      = {2011},
+  volume    = {30},
+  number    = {7},
+  pages     = {846--894},
+  month     = {jun},
+  doi       = {10.1177/0278364911406761},
+  file      = {:paper_library/sampling_based_optimal_planning.pdf:PDF},
+  keywords  = {asymptotically optimal, motion, planning},
+  publisher = {{SAGE} Publications},
+}
+
+@InBook{Bekris2020,
+  chapter   = {Asymptotically Optimal Sampling-Based Planners},
+  pages     = {1--12},
+  title     = {Encyclopedia of Robotics},
+  publisher = {Springer Berlin Heidelberg},
+  year      = {2020},
+  author    = {Bekris, Kostas E. and Shome, Rahul},
+  editor    = {Ang, Marcelo H. and Khatib, Oussama and Siciliano, Bruno},
+  address   = {Berlin, Heidelberg},
+  isbn      = {978-3-642-41610-1},
+  booktitle = {Encyclopedia of Robotics},
+  doi       = {10.1007/978-3-642-41610-1_172-1},
+  file      = {:paper_library/ao_planning_encyclopedia_of_robotics.pdf:PDF},
+  keywords  = {asymptotically optimal, motion, planning},
+  url       = {https://doi.org/10.1007/978-3-642-41610-1_172-1},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
-@Comment{jabref-meta: grouping:
+@Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
-1 KeywordGroup:Temporal Task Planning\;0\;keywords\;temporal, task\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;1\;\;\;\;;
-1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable,\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:AO Planning\;0\;keywords\;asymptotically optimal, motion, planning\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:Multi-Armed Bandits\;0\;keywords\;reinforcement learning, multi-armed bandit\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:Temporal Task Planning\;0\;keywords\;temporal, task\;0\;0\;;
+1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;;
+1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable\;0\;0\;;
+1 KeywordGroup:AO Planning\;0\;keywords\;asymptotically optimal, motion, planning\;0\;0\;;
+1 KeywordGroup:Multi-Armed Bandits\;0\;keywords\;reinforcement learning, multi-armed bandit\;0\;0\;;
 }
