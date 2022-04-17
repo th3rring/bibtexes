@@ -1325,6 +1325,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   year      = {2014},
   pages     = {45-51},
   doi       = {10.1109/HUMANOIDS.2014.7041336},
+  file      = {:paper_library/hierarchical_adaptive_mobile_manipulator.pdf:PDF},
   keywords  = {motion, planning, mobile, base},
 }
 
