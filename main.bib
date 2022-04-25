@@ -453,7 +453,7 @@ solutions can benefit from concurrent activity, subsuming re-},
   keywords  = {temporal, task, planning, pddl2.1},
 }
 
-@Article{fox2002pddl,
+@Article{Fox2002,
   author       = {M. Fox and D. Long},
   title        = {PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains},
   abstract     = {In recent years research in the planning community has moved increasingly toward s application of planners to realistic problems involving both time and many typ es of resources. For example, interest in planning demonstrated by the space res earch community has inspired work in observation scheduling, planetary rover ex ploration and spacecraft control domains. Other temporal and resource-intensive domains including logistics planning, plant control and manufacturing have also helped to focus the community on the modelling and reasoning issues that must be confronted to make planning technology meet the challenges of application. The International Planning Competitions have acted as an important motivating fo rce behind the progress that has been made in planning since 1998. The third com petition (held in 2002) set the planning community the challenge of handling tim e and numeric resources. This necessitated the development of a modelling langua ge capable of expressing temporal and numeric properties of planning domains. In this paper we describe the language, PDDL2.1, that was used in the competition. We describe the syntax of the language, its formal semantics and the validation of concurrent plans. We observe that PDDL2.1 has considerable modelling power --- exceeding the capabilities of current planning technology --- and presents a number of important challenges to the research community.},
@@ -468,7 +468,7 @@ solutions can benefit from concurrent activity, subsuming re-},
   keywords     = {temporal, pddl2.1},
 }
 
-@InProceedings{fox2002pddl+,
+@InProceedings{Fox2002a,
   author    = {Fox, Maria and Long, Derek},
   booktitle = {Proceedings of the 3rd International NASA Workshop on Planning and Scheduling for Space},
   title     = {PDDL+: Modeling continuous time dependent effects},
@@ -585,10 +585,10 @@ conservative model of actions of most temporal planners is not ap- Unlike PDDL, 
   keywords  = {temporal, task, planning, pddl2.1},
 }
 
-@InProceedings{AAAIW1612589,
+@InProceedings{Cashmore2016,
   author     = {Michael Cashmore and Maria Fox and Derek Long and Daniele Magazzeni},
-  title      = {A Compilation of the Full PDDL+ Language into SMT},
   booktitle  = {Proceedings of the 26th International Conference on Automated Planning and Scheduling (ICAPS 2016)},
+  title      = {A Compilation of the Full PDDL+ Language into SMT},
   year       = {2016},
   abstract   = {Planning in hybrid systems is important for dealing with real world applications. PDDL+ supports this representation of domains with mixed discrete and continuous dynamics, and supports events and processes modeling exogenous change. Motivated by numerous SAT-based planning approaches, we propose an approach to PDDL+ planning through SMT, describing an SMT encoding that captures all the features of the PDDL+ problem as published by Fox and Long (2006). The encoding can be applied on domains with nonlinear continuous change. We apply this encoding in a simple planning algorithm, demonstrating excellent results on a set of benchmark problems.},
   conference = {AAAI Workshops},
@@ -756,10 +756,10 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   numpages  = {9},
 }
 
-@InProceedings{Fischer2010,
+@InProceedings{Chakraborty2010,
   author      = {Sourav Chakraborty, Eldar Fischer, Oded Lachish, Raphael Yuster},
-  title       = {Two-phase algorithms for the parametric shortest path problem},
   booktitle   = {Proceedings from the Symposium on Theeoretical Aspects of Computer Science},
+  title       = {Two-phase algorithms for the parametric shortest path problem},
   year        = {2010},
   pages       = {167-178},
   abstract    = {A {\em parametric weighted graph} is a graph whose edges are labeled with continuous real functions of a single common variable. For any instantiation of the variable, one obtains a standard edge-weighted graph. Parametric weighted graph problems are generalizations of weighted graph problems, and arise in various natural scenarios. Parametric weighted graph algorithms consist of two phases. A {\em preprocessing phase} whose input is a parametric weighted graph, and whose output is a data structure, the advice, that is later used by the {\em instantiation phase}, where a specific value for the variable is given. The instantiation phase outputs the solution to the (standard) weighted graph problem that arises from the instantiation. The goal is to have the running time of the instantiation phase supersede the running time of any algorithm that solves the weighted graph problem from scratch, by taking advantage of the advice. In this paper we construct several parametric algorithms for the shortest path problem. For the case of linear function weights we present an algorithm for the single source shortest path problem.},
@@ -771,18 +771,18 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords    = {graph, upgradable, shortest path},
 }
 
-@Article{Palk1995,
+@Article{DoowonPalk1995,
   author   = {Doowon Palk, Sartaj Sahni},
-  title    = {Network Upgrading Problems},
   journal  = {Networks},
+  title    = {Network Upgrading Problems},
   year     = {1995},
-  volume   = {Vol. 26},
   pages    = {45-48},
+  volume   = {Vol. 26},
   file     = {:paper_library/network_upgrading_problems.pdf:PDF},
   keywords = {graph, upgradable},
 }
 
-@InProceedings{Dilkina2011UpgradingSP,
+@InProceedings{Dilkina2011,
   author    = {Bistra N. Dilkina and Katherine J. Lai and Carla P. Gomes},
   booktitle = {CPAIOR},
   title     = {Upgrading Shortest Paths in Networks},
@@ -791,7 +791,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {graph, upgradable},
 }
 
-@Article{FRIEZE202146,
+@Article{Frieze2021,
   author   = {Alan Frieze and Tomasz Tkocz},
   journal  = {Discrete Applied Mathematics},
   title    = {Shortest paths with a cost constraint: A probabilistic analysis},
@@ -863,15 +863,15 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords    = {asymptotically optimal, motion, planning, st-rrt*},
 }
 
-@Article{BAXTER2014675,
+@Article{Baxter2014,
   author   = {Matthew Baxter and Tarek Elgindy and Andreas T. Ernst and Thomas Kalinowski and Martin W.P. Savelsbergh},
-  title    = {Incremental network design with shortest paths},
   journal  = {European Journal of Operational Research},
+  title    = {Incremental network design with shortest paths},
   year     = {2014},
-  volume   = {238},
+  issn     = {0377-2217},
   number   = {3},
   pages    = {675-684},
-  issn     = {0377-2217},
+  volume   = {238},
   abstract = {We introduce a class of incremental network design problems focused on investigating the optimal choice and timing of network expansions. We concentrate on an incremental network design problem with shortest paths. We investigate structural properties of optimal solutions, show that the simplest variant is NP-hard, analyze the worst-case performance of natural greedy heuristics, derive a 4-approximation algorithm, and conduct a small computational study.},
   doi      = {https://doi.org/10.1016/j.ejor.2014.04.018},
   file     = {:paper_library/incremental_network_design_shortest_paths.pdf:PDF},
@@ -879,14 +879,14 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://www.sciencedirect.com/science/article/pii/S0377221714003440},
 }
 
-@Article{BOURAS2019226,
+@Article{Bouras2019,
   author   = {Ikram Bouras and Rosa Figueiredo and Michael Poss and Fen Zhou},
-  title    = {On two new formulations for the fixed charge network design problem with shortest path constraints},
   journal  = {Computers \& Operations Research},
+  title    = {On two new formulations for the fixed charge network design problem with shortest path constraints},
   year     = {2019},
-  volume   = {108},
-  pages    = {226-237},
   issn     = {0305-0548},
+  pages    = {226-237},
+  volume   = {108},
   abstract = {We study the fixed charge network design problem with shortest path constraints which is modeled as a bi-level program. We first review three one-level formulations obtained by applying the complementarity slackness theorem, Bellman’s optimality conditions and cycle elimination constraints. We propose two new binary integer programming (BILP) formulations inspired by path and cycle inequalities. The two formulations have exponential numbers of constraints. We incorporate the path and the cycle based formulations in a branch-and-cut algorithm and in another cutting-plane based method. Numerical experiments are performed on real instances, and random data sets generated with different criteria to examine the difficulty of the instances. The results show that the proposed cutting plane algorithms can solve up to 19% more instances than the classic branch-and-bound algorithms.},
   doi      = {https://doi.org/10.1016/j.cor.2019.04.007},
   file     = {:paper_library/fixed_charge_network_design_shortest_path.pdf:PDF},
@@ -894,7 +894,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://www.sciencedirect.com/science/article/pii/S0305054819300905},
 }
 
-@Article{5639015,
+@Article{Couprie2011,
   author   = {Couprie, Camille and Grady, Leo and Najman, Laurent and Talbot, Hugues},
   journal  = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   title    = {Power Watershed: A Unifying Graph-Based Optimization Framework},

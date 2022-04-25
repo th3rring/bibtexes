@@ -453,7 +453,7 @@ solutions can benefit from concurrent activity, subsuming re-},
   keywords  = {temporal, task, planning, pddl2.1},
 }
 
-@Article{fox2002pddl,
+@Article{Fox2002,
   author       = {M. Fox and D. Long},
   title        = {PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains},
   abstract     = {In recent years research in the planning community has moved increasingly toward s application of planners to realistic problems involving both time and many typ es of resources. For example, interest in planning demonstrated by the space res earch community has inspired work in observation scheduling, planetary rover ex ploration and spacecraft control domains. Other temporal and resource-intensive domains including logistics planning, plant control and manufacturing have also helped to focus the community on the modelling and reasoning issues that must be confronted to make planning technology meet the challenges of application. The International Planning Competitions have acted as an important motivating fo rce behind the progress that has been made in planning since 1998. The third com petition (held in 2002) set the planning community the challenge of handling tim e and numeric resources. This necessitated the development of a modelling langua ge capable of expressing temporal and numeric properties of planning domains. In this paper we describe the language, PDDL2.1, that was used in the competition. We describe the syntax of the language, its formal semantics and the validation of concurrent plans. We observe that PDDL2.1 has considerable modelling power --- exceeding the capabilities of current planning technology --- and presents a number of important challenges to the research community.},
@@ -468,7 +468,7 @@ solutions can benefit from concurrent activity, subsuming re-},
   keywords     = {temporal, pddl2.1},
 }
 
-@InProceedings{fox2002pddl+,
+@InProceedings{Fox2002a,
   author    = {Fox, Maria and Long, Derek},
   booktitle = {Proceedings of the 3rd International NASA Workshop on Planning and Scheduling for Space},
   title     = {PDDL+: Modeling continuous time dependent effects},
@@ -585,10 +585,10 @@ conservative model of actions of most temporal planners is not ap- Unlike PDDL, 
   keywords  = {temporal, task, planning, pddl2.1},
 }
 
-@InProceedings{AAAIW1612589,
+@InProceedings{Cashmore2016,
   author     = {Michael Cashmore and Maria Fox and Derek Long and Daniele Magazzeni},
-  title      = {A Compilation of the Full PDDL+ Language into SMT},
   booktitle  = {Proceedings of the 26th International Conference on Automated Planning and Scheduling (ICAPS 2016)},
+  title      = {A Compilation of the Full PDDL+ Language into SMT},
   year       = {2016},
   abstract   = {Planning in hybrid systems is important for dealing with real world applications. PDDL+ supports this representation of domains with mixed discrete and continuous dynamics, and supports events and processes modeling exogenous change. Motivated by numerous SAT-based planning approaches, we propose an approach to PDDL+ planning through SMT, describing an SMT encoding that captures all the features of the PDDL+ problem as published by Fox and Long (2006). The encoding can be applied on domains with nonlinear continuous change. We apply this encoding in a simple planning algorithm, demonstrating excellent results on a set of benchmark problems.},
   conference = {AAAI Workshops},
@@ -907,19 +907,19 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {graph, upgradable},
 }
 
-@Article{8968352,
+@Article{Mashayekhi2020,
   author   = {Mashayekhi, Reza and Idris, Mohd Yamani Idna and Anisi, Mohammad Hossein and Ahmedy, Ismail and Ali, Ihsan},
-  title    = {Informed RRT*-Connect: An Asymptotically Optimal Single-Query Path Planning Method},
   journal  = {IEEE Access},
+  title    = {Informed RRT*-Connect: An Asymptotically Optimal Single-Query Path Planning Method},
   year     = {2020},
-  volume   = {8},
   pages    = {19842-19852},
+  volume   = {8},
   doi      = {10.1109/ACCESS.2020.2969316},
   file     = {:paper_library/informed_rrt*_connect.pdf:PDF},
   keywords = {asymptotically optimal, motion, planning},
 }
 
-@Article{doi:10.1146/annurev-control-061920-093753,
+@Article{Gammell2021,
   author   = {Gammell, Jonathan D. and Strub, Marlin P.},
   journal  = {Annual Review of Control, Robotics, and Autonomous Systems},
   title    = {Asymptotically Optimal Sampling-Based Motion Planning Methods},
@@ -935,34 +935,34 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://doi.org/10.1146/annurev-control-061920-093753},
 }
 
-@InProceedings{pmlr-v28-chen13a,
+@InProceedings{Chen2013,
   author    = {Chen, Wei and Wang, Yajun and Yuan, Yang},
-  title     = {Combinatorial Multi-Armed Bandit: General Framework and Applications},
   booktitle = {Proceedings of the 30th International Conference on Machine Learning},
+  title     = {Combinatorial Multi-Armed Bandit: General Framework and Applications},
   year      = {2013},
-  editor    = {Dasgupta, Sanjoy and McAllester, David},
-  volume    = {28},
-  number    = {1},
-  series    = {Proceedings of Machine Learning Research},
-  pages     = {151--159},
   address   = {Atlanta, Georgia, USA},
+  editor    = {Dasgupta, Sanjoy and McAllester, David},
   month     = {17--19 Jun},
+  number    = {1},
+  pages     = {151--159},
   publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {28},
   abstract  = {We define a general framework for a large class of combinatorial multi-armed bandit (CMAB) problems, where simple arms with unknown istributions  form \em super arms. In each round, a super arm is played and the outcomes of its related simple arms are observed, which helps the selection of super arms in future rounds. The reward of the super arm depends on the outcomes of played arms, and it only needs to satisfy two mild assumptions, which allow a large class of nonlinear reward instances. We assume the availability of an (α,β)-approximation oracle that takes the  means of the distributions of arms and outputs a super arm that with probability βgenerates  an αfraction of the optimal expected reward. The objective of a CMAB algorithm is to minimize \em (α,β)-approximation regret, which is the difference in total expected reward between the αβfraction of expected reward when always playing the optimal super arm, and the expected reward of playing super arms according to the algorithm. We provide CUCB algorithm that achieves O(\log n) regret, where n is the number of rounds played, and we further provide distribution-independent bounds for a large class of reward functions. Our regret analysis is tight in that it matches the bound for classical MAB problem up to a constant factor, and it significantly improves the regret bound in a recent paper on combinatorial bandits with linear rewards. We apply our CMAB framework to two new applications, probabilistic maximum coverage (PMC) for online advertising and social influence maximization for viral marketing, both having nonlinear reward structures.},
   file      = {:paper_library/combinatorial_mab.pdf:PDF;chen13a.pdf:http\://proceedings.mlr.press/v28/chen13a.pdf:PDF},
   keywords  = {reinforcement learning, multi-armed bandit, combinatorial bandit},
   url       = {https://proceedings.mlr.press/v28/chen13a.html},
 }
 
-@Article{ab6cf163be1a4160a1b6a4224c6132f7,
+@Article{Wu2015,
   author   = {Huasen Wu and R. Srikant and Xin Liu and Chong Jiang},
-  title    = {Algorithms with logarithmic or sublinear regret for constrained contextual bandits},
   journal  = {Advances in Neural Information Processing Systems},
+  title    = {Algorithms with logarithmic or sublinear regret for constrained contextual bandits},
   year     = {2015},
-  volume   = {2015-January},
-  pages    = {433--441},
   issn     = {1049-5258},
   note     = {Funding Information: This research was supported in part by NSF Grants CCF-1423542, CNS-1457060, CNS-1547461, and AFOSR MURI Grant FA 9550-10-1-0573.; 29th Annual Conference on Neural Information Processing Systems, NIPS 2015 ; Conference date: 07-12-2015 Through 12-12-2015},
+  pages    = {433--441},
+  volume   = {2015-January},
   abstract = {We study contextual bandits with budget and time constraints, referred to as constrained contextual bandits. The time and budget constraints significantly complicate the exploration and exploitation tradeoff because they introduce complex coupling among contexts over time. To gain insight, we first study unit-cost systems with known context distribution. When the expected rewards are known, we develop an approximation of the oracle, referred to Adaptive-Linear-Programming (ALP), which achieves near-optimality and only requires the ordering of expected rewards. With these highly desirable features, we then combine ALP with the upper-confidence-bound (UCB) method in the general case where the expected rewards are unknown a priori. We show that the proposed UCB-ALP algorithm achieves logarithmic regret except for certain boundary cases. Further, we design algorithms and obtain similar regret bounds for more general systems with unknown context distribution and heterogeneous costs. To the best of our knowledge, this is the first work that shows how to achieve logarithmic regret in constrained contextual bandits. Moreover, this work also sheds light on the study of computationally efficient algorithms for general constrained contextual bandits.},
   file     = {:paper_library/log_sublinear_regret_constrained_context_mab.pdf:PDF},
   keywords = {reinforcement learning, multi-armed bandit, contextual bandit, restricted context},
@@ -980,7 +980,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {reinforcement learning, multi-armed bandit, contextual bandit},
 }
 
-@Book{suttonbarto2018,
+@Book{Sutton2018,
   author    = {Sutton, Richard S. and Barto, Andrew G.},
   publisher = {The MIT Press},
   title     = {Reinforcement Learning: An Introduction},
@@ -1028,7 +1028,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url       = {https://doi.org/10.1007/978-3-642-41610-1_172-1},
 }
 
-@InProceedings{6225029,
+@InProceedings{Hornung2012,
   author    = {Hornung, Armin and Phillips, Mike and Gil Jones, E. and Bennewitz, Maren and Likhachev, Maxim and Chitta, Sachin},
   booktitle = {2012 IEEE International Conference on Robotics and Automation},
   title     = {Navigation in three-dimensional cluttered environments for mobile manipulation},
@@ -1040,7 +1040,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {motion, planning, mobile, base},
 }
 
-@InProceedings{Strub_2020,
+@InProceedings{Strub2020,
   author    = {Marlin P. Strub and Jonathan D. Gammell},
   booktitle = {2020 {IEEE} International Conference on Robotics and Automation ({ICRA})},
   title     = {Adaptively Informed Trees ({AIT}{\ast}): Fast Asymptotically Optimal Path Planning through Adaptive Heuristics},
@@ -1053,7 +1053,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url       = {https://doi.org/10.1109%2Ficra40945.2020.9197338},
 }
 
-@InProceedings{10.1007/978-3-540-71493-4_18,
+@InProceedings{Fainekos2007,
   author    = {Fainekos, Georgios E. and Girard, Antoine and Pappas, George J.},
   booktitle = {Hybrid Systems: Computation and Control},
   title     = {Hierarchical Synthesis of Hybrid Controllers from Temporal Logic Specifications},
@@ -1068,7 +1068,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {temporal, logic, motion, planning},
 }
 
-@Article{5238617,
+@Article{KressGazit2009,
   author   = {Kress-Gazit, Hadas and Fainekos, Georgios E. and Pappas, George J.},
   journal  = {IEEE Transactions on Robotics},
   title    = {Temporal-Logic-Based Reactive Mission and Motion Planning},
@@ -1081,7 +1081,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {temporal, logic, motion, planning},
 }
 
-@InProceedings{1570410,
+@InProceedings{Fainekos2005,
   author    = {Fainekos, G.E. and Kress-Gazit, H. and Pappas, G.J.},
   booktitle = {Proceedings of the 2005 IEEE International Conference on Robotics and Automation},
   title     = {Temporal Logic Motion Planning for Mobile Robots},
@@ -1097,7 +1097,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
 
 
 
-@Article{doi:10.1146/annurev-control-060117-104838,
+@Article{KressGazit2018,
   author   = {Kress-Gazit, Hadas and Lahijanian, Morteza and Raman, Vasumathi},
   journal  = {Annual Review of Control, Robotics, and Autonomous Systems},
   title    = {Synthesis for Robots: Guarantees and Feedback for Robot Behavior},
@@ -1113,7 +1113,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://doi.org/10.1146/annurev-control-060117-104838},
 }
 
-@InProceedings{1582935,
+@InProceedings{Fainekos2005a,
   author    = {Fainekos, G.E. and Kress-Gazit, H. and Pappas, G.J.},
   booktitle = {Proceedings of the 44th IEEE Conference on Decision and Control},
   title     = {Hybrid Controllers for Path Planning: A Temporal Logic Approach},
@@ -1124,7 +1124,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {temporal, logic, motion, planning},
 }
 
-@Article{FRAGAPANE2021405,
+@Article{Fragapane2021,
   author   = {Giuseppe Fragapane and René {de Koster} and Fabio Sgarbossa and Jan Ola Strandhagen},
   journal  = {European Journal of Operational Research},
   title    = {Planning and control of autonomous mobile robots for intralogistics: Literature review and research agenda},
@@ -1140,7 +1140,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://www.sciencedirect.com/science/article/pii/S0377221721000217},
 }
 
-@InProceedings{6907709,
+@InProceedings{Coltin2014a,
   author    = {Coltin, Brian and Veloso, Manuela},
   booktitle = {2014 IEEE International Conference on Robotics and Automation (ICRA)},
   title     = {Online pickup and delivery planning with transfers for mobile robots},
@@ -1151,7 +1151,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {mobile, base, scheduling, pdp},
 }
 
-@Article{article,
+@Article{Coltin2014b,
   author   = {Coltin, Brian and Veloso, Manuela},
   journal  = {Springer Tracts in Advanced Robotics},
   title    = {Optimizing for Transfers in a Multi-Vehicle Collection and Delivery Problem},
@@ -1164,7 +1164,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {mobile, base, scheduling, pdp},
 }
 
-@InProceedings{7139027,
+@InProceedings{Mudrova2015,
   author    = {Mudrova, Lenka and Hawes, Nick},
   booktitle = {2015 IEEE International Conference on Robotics and Automation (ICRA)},
   title     = {Task scheduling for mobile robots using interval algebra},
@@ -1175,7 +1175,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {mobile, base, scheduling, pdp},
 }
 
-@Article{10.2307/25769321,
+@Article{Ropke2006,
   author    = {Stefan Ropke and David Pisinger},
   journal   = {Transportation Science},
   title     = {An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows},
@@ -1192,7 +1192,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   urldate   = {2022-04-17},
 }
 
-@Article{FURTADO2017334,
+@Article{Furtado2017,
   author   = {Maria Gabriela S. Furtado and Pedro Munari and Reinaldo Morabito},
   journal  = {Operations Research Letters},
   title    = {Pickup and delivery problem with time windows: A new compact two-index formulation},
@@ -1208,7 +1208,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://www.sciencedirect.com/science/article/pii/S0167637717302651},
 }
 
-@Article{https://doi.org/10.1002/net.20177,
+@Article{Ropke2007,
   author   = {Ropke, Stefan and Cordeau, Jean-François and Laporte, Gilbert},
   journal  = {Networks},
   title    = {Models and branch-and-cut algorithms for pickup and delivery problems with time windows},
@@ -1224,7 +1224,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/net.20177},
 }
 
-@PhdThesis{Coltin-2014-7864,
+@PhdThesis{Coltin2014,
   author   = {Brian Coltin},
   school   = {Carnegie Mellon University},
   title    = {Multi-agent Pickup and Delivery Planning with Transfers},
@@ -1236,7 +1236,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   number   = {CMU-RI-TR-14-05},
 }
 
-@Article{FAINEKOS2009343,
+@Article{Fainekos2009,
   author   = {Georgios E. Fainekos and Antoine Girard and Hadas Kress-Gazit and George J. Pappas},
   journal  = {Automatica},
   title    = {Temporal logic motion planning for dynamic robots},
@@ -1252,7 +1252,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://www.sciencedirect.com/science/article/pii/S000510980800455X},
 }
 
-@Article{DUMAS19917,
+@Article{Dumas1991,
   author   = {Yvan Dumas and Jacques Desrosiers and François Soumis},
   journal  = {European Journal of Operational Research},
   title    = {The pickup and delivery problem with time windows},
@@ -1268,7 +1268,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   url      = {https://www.sciencedirect.com/science/article/pii/037722179190319Q},
 }
 
-@Article{6085615,
+@Article{Lahijanian2012,
   author   = {Lahijanian, Morteza and Andersson, Sean B. and Belta, Calin},
   journal  = {IEEE Transactions on Robotics},
   title    = {Temporal Logic Motion Planning and Control With Probabilistic Satisfaction Guarantees},
@@ -1281,7 +1281,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {temporal, logic, motion, planning},
 }
 
-@Article{9387068,
+@Article{Heiden2021,
   author   = {Heiden, Eric and Palmieri, Luigi and Bruns, Leonard and Arras, Kai O. and Sukhatme, Gaurav S. and Koenig, Sven},
   journal  = {IEEE Robotics and Automation Letters},
   title    = {Bench-MR: A Motion Planning Benchmark for Wheeled Mobile Robots},
@@ -1294,7 +1294,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {benchmarks, motion, planning, mobile, base},
 }
 
-@Article{7493595,
+@Article{Lunenburg2016,
   author   = {Lunenburg, J.J.M. and Coenen, S.A.M. and Naus, G.J.L. and van de Molengraft, M.J.G. and Steinbuch, M.},
   journal  = {IEEE Robotics Automation Magazine},
   title    = {Motion Planning for Mobile Robots: A Method for the Selection of a Combination of Motion-Planning Algorithms},
@@ -1307,7 +1307,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {motion, planning, mobile, base},
 }
 
-@InProceedings{5509725,
+@InProceedings{MarderEppstein2010,
   author    = {Marder-Eppstein, Eitan and Berger, Eric and Foote, Tully and Gerkey, Brian and Konolige, Kurt},
   booktitle = {2010 IEEE International Conference on Robotics and Automation},
   title     = {The Office Marathon: Robust navigation in an indoor office environment},
@@ -1318,7 +1318,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {motion, planning, mobile, base},
 }
 
-@InProceedings{7041336,
+@InProceedings{Pilania2014,
   author    = {Pilania, Vinay and Gupta, Kamal},
   booktitle = {2014 IEEE-RAS International Conference on Humanoid Robots},
   title     = {A hierarchical and adaptive mobile manipulator planner},
@@ -1329,7 +1329,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {motion, planning, mobile, base},
 }
 
-@InProceedings{sprunk2014an,
+@InProceedings{Sprunk2014,
   author    = {Sprunk, Christoph and Rowekamper, Jorg and Spinello, Luciano and Tipaldi, Gian Diego and Burgard, Wolfram and Jalobeanu, Mihai and Parent, Gershon},
   booktitle = {International Symposium on Experimental Robotics},
   title     = {An Experimental Protocol for Benchmarking Robotic Indoor Navigation},
@@ -1342,7 +1342,7 @@ We present applications of our protocol in experiments in two different research
   url       = {https://www.microsoft.com/en-us/research/publication/an-experimental-protocol-for-benchmarking-robotic-indoor-navigation/},
 }
 
-@Article{6194296,
+@Article{Sturtevant2012,
   author   = {Sturtevant, Nathan R.},
   journal  = {IEEE Transactions on Computational Intelligence and AI in Games},
   title    = {Benchmarks for Grid-Based Pathfinding},
@@ -1355,7 +1355,7 @@ We present applications of our protocol in experiments in two different research
   keywords = {benchmarks},
 }
 
-@Article{DBLP:journals/corr/abs-1901-10915,
+@Article{Mishkin2019,
   author        = {Dmytro Mishkin and Alexey Dosovitskiy and Vladlen Koltun},
   journal       = {CoRR},
   title         = {Benchmarking Classic and Learned Navigation in Complex 3D Environments},
@@ -1371,7 +1371,7 @@ We present applications of our protocol in experiments in two different research
   url           = {http://arxiv.org/abs/1901.10915},
 }
 
-@InProceedings{5152860,
+@InProceedings{Kushleyev2009,
   author    = {Kushleyev, Aleksandr and Likhachev, Maxim},
   booktitle = {2009 IEEE International Conference on Robotics and Automation},
   title     = {Time-bounded lattice for efficient planning in dynamic environments},
@@ -1382,7 +1382,7 @@ We present applications of our protocol in experiments in two different research
   keywords  = {temporal, logic, motion, planning},
 }
 
-@InProceedings{9196928,
+@InProceedings{Khalidi2020,
   author    = {Khalidi, Danish and Gujarathi, Dhaval and Saha, Indranil},
   booktitle = {2020 IEEE International Conference on Robotics and Automation (ICRA)},
   title     = {T* : A Heuristic Search Based Path Planning Algorithm for Temporal Logic Specifications},
@@ -1393,7 +1393,7 @@ We present applications of our protocol in experiments in two different research
   keywords  = {temporal, logic, motion, planning},
 }
 
-@Article{doi:10.2514/2.4856,
+@Article{Frazzoli2002,
   author   = {Frazzoli, Emilio and Dahleh, Munther A. and Feron, Eric},
   journal  = {Journal of Guidance, Control, and Dynamics},
   title    = {Real-Time Motion Planning for Agile Autonomous Vehicles},
@@ -1408,7 +1408,7 @@ We present applications of our protocol in experiments in two different research
   url      = {https://doi.org/10.2514/2.4856},
 }
 
-@InProceedings{Walker2011HardRM,
+@InProceedings{Walker2011,
   author   = {A. B. Walker},
   title    = {Hard real-time motion planning for autonomous vehicles},
   year     = {2011},
