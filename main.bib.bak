@@ -1148,7 +1148,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   pages     = {5786-5791},
   doi       = {10.1109/ICRA.2014.6907709},
   file      = {:paper_library/online_pdp_transfers.pdf:PDF},
-  keywords  = {mobile, base, scheduling, mobile, base, scheduling, pdp},
+  keywords  = {mobile, base, scheduling, pdp},
 }
 
 @Article{article,
@@ -1264,7 +1264,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   abstract = {The vehicle routing problem (vrp) involves the design of a set of minimum cost routes for a fleet of vehicles which services exactly once a set of customers with known demands. The pickup and delivery problem with time windows (pdptw) is a generalization of the vrp which is concerned with the construction of optimal routes to satisfy transportation requests, each requiring both pickup and delivery under capacity, time window and precedence constraints. This paper presents an exact algorithm which solves the pickup and delivery problem when transporting goods. This algorithm uses a column generation scheme with a constrained shortest path as a subproblem. The algorithm can handle multiple depots and different types of vehicles.},
   doi      = {https://doi.org/10.1016/0377-2217(91)90319-Q},
   file     = {:paper_library/pdp_time_windows.pdf:PDF},
-  keywords = {Transportation, routing, scheduling, column generation, mobile, base, scheduling, pdp},
+  keywords = {Transportation, routing, scheduling, column generation, mobile, base, pdp},
   url      = {https://www.sciencedirect.com/science/article/pii/037722179190319Q},
 }
 
@@ -1327,6 +1327,93 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   doi       = {10.1109/HUMANOIDS.2014.7041336},
   file      = {:paper_library/hierarchical_adaptive_mobile_manipulator.pdf:PDF},
   keywords  = {motion, planning, mobile, base},
+}
+
+@InProceedings{sprunk2014an,
+  author    = {Sprunk, Christoph and Rowekamper, Jorg and Spinello, Luciano and Tipaldi, Gian Diego and Burgard, Wolfram and Jalobeanu, Mihai and Parent, Gershon},
+  booktitle = {International Symposium on Experimental Robotics},
+  title     = {An Experimental Protocol for Benchmarking Robotic Indoor Navigation},
+  year      = {2014},
+  month     = {June},
+  abstract  = {Robot navigation is one of the most studied problems in robotics and the key capability for robot autonomy. Navigation techniques have become more and more reliable, but evaluation mainly focused on individual navigation components (i.e., mapping, localization, and planning) using datasets or simulations. The goal of this paper is to define an experimental protocol to evaluate the whole navigation system, deployed in a real environment. To ensure repeatability and reproducibility of experiments, our benchmark protocol provides detailed definitions and controls the environment dynamics. We define standardized environments and introduce the concept of a reference robot to allow comparison between different navigation systems at different experimentation sites.
+We present applications of our protocol in experiments in two different research groups, showing the usefulness of the benchmark.},
+  file      = {:paper_library/experimental_protocal_benchmarking_indoor.pdf:PDF},
+  keywords  = {benchmarks},
+  url       = {https://www.microsoft.com/en-us/research/publication/an-experimental-protocol-for-benchmarking-robotic-indoor-navigation/},
+}
+
+@Article{6194296,
+  author   = {Sturtevant, Nathan R.},
+  journal  = {IEEE Transactions on Computational Intelligence and AI in Games},
+  title    = {Benchmarks for Grid-Based Pathfinding},
+  year     = {2012},
+  number   = {2},
+  pages    = {144-148},
+  volume   = {4},
+  doi      = {10.1109/TCIAIG.2012.2197681},
+  file     = {:paper_library/benchmarks_grid_pathfindings.pdf:PDF},
+  keywords = {benchmarks},
+}
+
+@Article{DBLP:journals/corr/abs-1901-10915,
+  author        = {Dmytro Mishkin and Alexey Dosovitskiy and Vladlen Koltun},
+  journal       = {CoRR},
+  title         = {Benchmarking Classic and Learned Navigation in Complex 3D Environments},
+  year          = {2019},
+  volume        = {abs/1901.10915},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/journals/corr/abs-1901-10915.bib},
+  eprint        = {1901.10915},
+  file          = {:paper_library/benchmarks_classic_v_learned_nav.pdf:PDF},
+  keywords      = {benchmarks},
+  timestamp     = {Sun, 03 Feb 2019 14:23:05 +0100},
+  url           = {http://arxiv.org/abs/1901.10915},
+}
+
+@InProceedings{5152860,
+  author    = {Kushleyev, Aleksandr and Likhachev, Maxim},
+  booktitle = {2009 IEEE International Conference on Robotics and Automation},
+  title     = {Time-bounded lattice for efficient planning in dynamic environments},
+  year      = {2009},
+  pages     = {1662-1668},
+  doi       = {10.1109/ROBOT.2009.5152860},
+  file      = {:paper_library/time_bounded_lattice_dynamic_envs.pdf:PDF},
+  keywords  = {temporal, logic, motion, planning},
+}
+
+@InProceedings{9196928,
+  author    = {Khalidi, Danish and Gujarathi, Dhaval and Saha, Indranil},
+  booktitle = {2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  title     = {T* : A Heuristic Search Based Path Planning Algorithm for Temporal Logic Specifications},
+  year      = {2020},
+  pages     = {8476-8482},
+  doi       = {10.1109/ICRA40945.2020.9196928},
+  file      = {:paper_library/t_star.pdf:PDF},
+  keywords  = {temporal, logic, motion, planning},
+}
+
+@Article{doi:10.2514/2.4856,
+  author   = {Frazzoli, Emilio and Dahleh, Munther A. and Feron, Eric},
+  journal  = {Journal of Guidance, Control, and Dynamics},
+  title    = {Real-Time Motion Planning for Agile Autonomous Vehicles},
+  year     = {2002},
+  number   = {1},
+  pages    = {116-129},
+  volume   = {25},
+  doi      = {10.2514/2.4856},
+  eprint   = {https://doi.org/10.2514/2.4856},
+  file     = {:paper_library/realtime_mp_agile_vehicles.pdf:PDF},
+  keywords = {motion, planning, mobile, base},
+  url      = {https://doi.org/10.2514/2.4856},
+}
+
+@InProceedings{Walker2011HardRM,
+  author   = {A. B. Walker},
+  title    = {Hard real-time motion planning for autonomous vehicles},
+  year     = {2011},
+  file     = {:paper_library/hard_realtime_mp_augonomous_vehicles.pdf:PDF},
+  keywords = {motion, planning, mobile, base},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

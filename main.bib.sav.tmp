@@ -907,19 +907,19 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords = {graph, upgradable},
 }
 
-@Article{8968352,
+@Article{Mashayekhi2020,
   author   = {Mashayekhi, Reza and Idris, Mohd Yamani Idna and Anisi, Mohammad Hossein and Ahmedy, Ismail and Ali, Ihsan},
-  title    = {Informed RRT*-Connect: An Asymptotically Optimal Single-Query Path Planning Method},
   journal  = {IEEE Access},
+  title    = {Informed RRT*-Connect: An Asymptotically Optimal Single-Query Path Planning Method},
   year     = {2020},
-  volume   = {8},
   pages    = {19842-19852},
+  volume   = {8},
   doi      = {10.1109/ACCESS.2020.2969316},
   file     = {:paper_library/informed_rrt*_connect.pdf:PDF},
   keywords = {asymptotically optimal, motion, planning},
 }
 
-@Article{doi:10.1146/annurev-control-061920-093753,
+@Article{Gammell2021,
   author   = {Gammell, Jonathan D. and Strub, Marlin P.},
   journal  = {Annual Review of Control, Robotics, and Autonomous Systems},
   title    = {Asymptotically Optimal Sampling-Based Motion Planning Methods},
@@ -1040,7 +1040,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {motion, planning, mobile, base},
 }
 
-@InProceedings{Strub_2020,
+@InProceedings{Strub2020,
   author    = {Marlin P. Strub and Jonathan D. Gammell},
   booktitle = {2020 {IEEE} International Conference on Robotics and Automation ({ICRA})},
   title     = {Adaptively Informed Trees ({AIT}{\ast}): Fast Asymptotically Optimal Path Planning through Adaptive Heuristics},
@@ -1148,7 +1148,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   pages     = {5786-5791},
   doi       = {10.1109/ICRA.2014.6907709},
   file      = {:paper_library/online_pdp_transfers.pdf:PDF},
-  keywords  = {mobile, base, scheduling, mobile, base, scheduling, pdp},
+  keywords  = {mobile, base, scheduling, pdp},
 }
 
 @Article{article,
@@ -1264,7 +1264,7 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   abstract = {The vehicle routing problem (vrp) involves the design of a set of minimum cost routes for a fleet of vehicles which services exactly once a set of customers with known demands. The pickup and delivery problem with time windows (pdptw) is a generalization of the vrp which is concerned with the construction of optimal routes to satisfy transportation requests, each requiring both pickup and delivery under capacity, time window and precedence constraints. This paper presents an exact algorithm which solves the pickup and delivery problem when transporting goods. This algorithm uses a column generation scheme with a constrained shortest path as a subproblem. The algorithm can handle multiple depots and different types of vehicles.},
   doi      = {https://doi.org/10.1016/0377-2217(91)90319-Q},
   file     = {:paper_library/pdp_time_windows.pdf:PDF},
-  keywords = {Transportation, routing, scheduling, column generation, mobile, base, scheduling, pdp},
+  keywords = {Transportation, routing, scheduling, column generation, mobile, base, pdp},
   url      = {https://www.sciencedirect.com/science/article/pii/037722179190319Q},
 }
 
@@ -1329,16 +1329,10 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   keywords  = {motion, planning, mobile, base},
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
-
-@Comment{jabref-meta: grouping:
-0 AllEntriesGroup:;
-1 KeywordGroup:Temporal Task Planning\;0\;keywords\;temporal, task\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;1\;\;\;\;;
-1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:AO Planning\;0\;keywords\;asymptotically optimal, motion, planning\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:Multi-Armed Bandits\;0\;keywords\;reinforcement learning, multi-armed bandit\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:Mobile Manipulator Motion Planning\;0\;keywords\;motion, planning, mobile, base\;0\;0\;1\;0x8a8a8aff\;\;\;;
-1 KeywordGroup:Pickup and Delivery Problems with Time Windows\;0\;keywords\;mobile, base, scheduling, pdp\;0\;0\;1\;0x8a8a8aff\;\;\;;
-1 KeywordGroup:Temporal Logic Motion Planning\;0\;keywords\;temporal, logic, motion, planning\;0\;0\;1\;0x8a8a8aff\;\;\;;
-1 KeywordGroup:Benchmarks\;0\;keywords\;benchmarks\;
+@InProceedings{sprunk2014an,
+  author    = {Sprunk, Christoph and Rowekamper, Jorg and Spinello, Luciano and Tipaldi, Gian Diego and Burgard, Wolfram and Jalobeanu, Mihai and Parent, Gershon},
+  booktitle = {International Symposium on Experimental Robotics},
+  title     = {An Experimental Protocol for Benchmarking Robotic Indoor Navigation},
+  year      = {2014},
+  month     = {June},
+  abstract  = {Robot navigation is one of the most studied problems in robotics and the key capability for robot autonomy. Navigation techniques have become more and more reliable, but evaluation mainly focused on individual navigation components (i.e., mapping, localization, and planning) using datasets or simulations. The goal of this paper is to define an experimental protocol to evaluate the whole navigation system, deployed in a real environment. To ensure repeatability and reproducibility of experiments, our benchmark protocol provides detailed definitions and controls the environment dynamics. We define standardized environments and intro
