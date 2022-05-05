@@ -1335,4 +1335,131 @@ Conference version, journal article is COLIN: Planning with Continuous Linear Nu
   title     = {An Experimental Protocol for Benchmarking Robotic Indoor Navigation},
   year      = {2014},
   month     = {June},
-  abstract  = {Robot navigation is one of the most studied problems in robotics and the key capability for robot autonomy. Navigation techniques have become more and more reliable, but evaluation mainly focused on individual navigation components (i.e., mapping, localization, and planning) using datasets or simulations. The goal of this paper is to define an experimental protocol to evaluate the whole navigation system, deployed in a real environment. To ensure repeatability and reproducibility of experiments, our benchmark protocol provides detailed definitions and controls the environment dynamics. We define standardized environments and introduce the concept of a reference robot to allow comparison between different nav
+  abstract  = {Robot navigation is one of the most studied problems in robotics and the key capability for robot autonomy. Navigation techniques have become more and more reliable, but evaluation mainly focused on individual navigation components (i.e., mapping, localization, and planning) using datasets or simulations. The goal of this paper is to define an experimental protocol to evaluate the whole navigation system, deployed in a real environment. To ensure repeatability and reproducibility of experiments, our benchmark protocol provides detailed definitions and controls the environment dynamics. We define standardized environments and introduce the concept of a reference robot to allow comparison between different navigation systems at different experimentation sites.
+We present applications of our protocol in experiments in two different research groups, showing the usefulness of the benchmark.},
+  file      = {:paper_library/experimental_protocal_benchmarking_indoor.pdf:PDF},
+  keywords  = {benchmarks},
+  url       = {https://www.microsoft.com/en-us/research/publication/an-experimental-protocol-for-benchmarking-robotic-indoor-navigation/},
+}
+
+@Article{Sturtevant2012,
+  author   = {Sturtevant, Nathan R.},
+  journal  = {IEEE Transactions on Computational Intelligence and AI in Games},
+  title    = {Benchmarks for Grid-Based Pathfinding},
+  year     = {2012},
+  number   = {2},
+  pages    = {144-148},
+  volume   = {4},
+  doi      = {10.1109/TCIAIG.2012.2197681},
+  file     = {:paper_library/benchmarks_grid_pathfindings.pdf:PDF},
+  keywords = {benchmarks},
+}
+
+@Article{Mishkin2019,
+  author        = {Dmytro Mishkin and Alexey Dosovitskiy and Vladlen Koltun},
+  journal       = {CoRR},
+  title         = {Benchmarking Classic and Learned Navigation in Complex 3D Environments},
+  year          = {2019},
+  volume        = {abs/1901.10915},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/journals/corr/abs-1901-10915.bib},
+  eprint        = {1901.10915},
+  file          = {:paper_library/benchmarks_classic_v_learned_nav.pdf:PDF},
+  keywords      = {benchmarks},
+  timestamp     = {Sun, 03 Feb 2019 14:23:05 +0100},
+  url           = {http://arxiv.org/abs/1901.10915},
+}
+
+@InProceedings{Kushleyev2009,
+  author    = {Kushleyev, Aleksandr and Likhachev, Maxim},
+  booktitle = {2009 IEEE International Conference on Robotics and Automation},
+  title     = {Time-bounded lattice for efficient planning in dynamic environments},
+  year      = {2009},
+  pages     = {1662-1668},
+  doi       = {10.1109/ROBOT.2009.5152860},
+  file      = {:paper_library/time_bounded_lattice_dynamic_envs.pdf:PDF},
+  keywords  = {temporal, logic, motion, planning},
+}
+
+@InProceedings{Khalidi2020,
+  author    = {Khalidi, Danish and Gujarathi, Dhaval and Saha, Indranil},
+  booktitle = {2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  title     = {T* : A Heuristic Search Based Path Planning Algorithm for Temporal Logic Specifications},
+  year      = {2020},
+  pages     = {8476-8482},
+  doi       = {10.1109/ICRA40945.2020.9196928},
+  file      = {:paper_library/t_star.pdf:PDF},
+  keywords  = {temporal, logic, motion, planning},
+}
+
+@Article{Frazzoli2002,
+  author   = {Frazzoli, Emilio and Dahleh, Munther A. and Feron, Eric},
+  journal  = {Journal of Guidance, Control, and Dynamics},
+  title    = {Real-Time Motion Planning for Agile Autonomous Vehicles},
+  year     = {2002},
+  number   = {1},
+  pages    = {116-129},
+  volume   = {25},
+  doi      = {10.2514/2.4856},
+  eprint   = {https://doi.org/10.2514/2.4856},
+  file     = {:paper_library/realtime_mp_agile_vehicles.pdf:PDF},
+  keywords = {motion, planning, mobile, base},
+  url      = {https://doi.org/10.2514/2.4856},
+}
+
+@InProceedings{Walker2011,
+  author   = {A. B. Walker},
+  title    = {Hard real-time motion planning for autonomous vehicles},
+  year     = {2011},
+  file     = {:paper_library/hard_realtime_mp_augonomous_vehicles.pdf:PDF},
+  keywords = {motion, planning, mobile, base},
+}
+
+@InProceedings{Ghallab1998,
+  author               = {Ghallab, M. and Howe, A. and Knoblock, C. and Mcdermott, D. and Ram, A. and Veloso, M. and Weld, D. and Wilkins, D.},
+  title                = {{PDDL---The Planning Domain Definition Language}},
+  year                 = {1998},
+  abstract             = {{This manual describes the syntax of PDDL, the Planning Domain Definition Language, the problem-specification language for the AIPS-98 planning competition. The language has roughly the the expressiveness of Pednault's ADL [10] for propositions, and roughly the expressiveness of UMCP [6] for actions. Our hope is to encourage empirical evaluation of planner performance, and development of standard sets of problems all in comparable notations.  1 Introduction This manual describes the syntax,...}},
+  added-at             = {2011-05-04T16:04:17.000+0200},
+  biburl               = {https://www.bibsonomy.org/bibtex/25c6a68d39689f821990388098e7deccc/baisemain},
+  citeulike-article-id = {1297527},
+  citeulike-linkout-0  = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.212},
+  file                 = {:paper_library/pddl.pdf:PDF},
+  interhash            = {79d5e5bbc06e74f83bebdbb00b1b61e6},
+  intrahash            = {5c6a68d39689f821990388098e7deccc},
+  keywords             = {pddl, planning},
+  posted-at            = {2007-05-15 18:01:28},
+  priority             = {2},
+  timestamp            = {2011-05-04T16:04:38.000+0200},
+  url                  = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.212},
+}
+
+@Article{10.1093/logcom/4.5.467,
+  author   = {Pednault, Edwin P. D.},
+  journal  = {Journal of Logic and Computation},
+  title    = {{ADL and the State-Transition Model of Action}},
+  year     = {1994},
+  issn     = {0955-792X},
+  month    = {10},
+  number   = {5},
+  pages    = {467-512},
+  volume   = {4},
+  abstract = {{This paper provides a complete presentation of the syntax, semantics, and some of the properties of ADL, a formalism for representing and reasoning about the effects of actions. ADL is based on the state-transition model of action, combining much of the expressive power of the situation calculus with the notational and computational benefits of the STRIPS language. In combining these elements, ADL attempts to strike a better balance in the tradeoff between the expressiveness of a logical formalism and the computational complexity of reasoning with that formalism. ADL is defined from a semantic standpoint as a set of constraints on the general state-transition model of action. These constraints are general enough to enable situation-dependent effects to be described while being strong enough to provide a simple solution to the frame problem. The syntax of ADL can vary, allowing different syntactical variants to be developed without altering the underlying semantics. The syntax presented here resembles the STRIPS operator language augmented with conditional add and delete lists. Reasoning is accomplished by transforming ADL schemas into regression operators. It is shown that regression operators provide a sound and complete means for reasoning about the effects of actions represented in ADL. It is also shown that, in general, comparable progression operators cannot be constructed from ADL schemas. This result is surprising, since progression operators are conceptually the inverse of regression operators. Reasoning can also be accomplished by axiomatizing ADL schemas in the situation calculus. It is shown that a restricted form of the situation calculus can be defined that is effectively equivalent to ADL in that ADL schemas can be translated into equivalent sets of axioms in this restricted form, and vice versa. The restricted form is interesting in its own right, since it incorporates a solution to the frame problem that does not explicitly rely on circumscription. This solution is derived from the semantics of ADL.}},
+  doi      = {10.1093/logcom/4.5.467},
+  eprint   = {https://academic.oup.com/logcom/article-pdf/4/5/467/6322988/4-5-467.pdf},
+  keywords = {pddl-related, adl, transition model},
+  url      = {https://doi.org/10.1093/logcom/4.5.467},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 KeywordGroup:Temporal Task Planning\;0\;keywords\;temporal, task\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:PDDL Related\;0\;keywords\;pddl.*\;0\;1\;1\;\;\;\;;
+1 KeywordGroup:Upgradable Directed Graphs\;0\;keywords\;graph, upgradable\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:AO Planning\;0\;keywords\;asymptotically optimal, motion, planning\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:Multi-Armed Bandits\;0\;keywords\;reinforcement learning, multi-armed bandit\;0\;0\;1\;\;\;\;;
+1 KeywordGroup:Mobile Manipulator Motion Planning\;0\;keywords\;motion, planning, mobile, base\;0\;0\;1\;0x8a8a8aff\;\;\;;
+1 Ke
