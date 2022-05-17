@@ -69,12 +69,10 @@
   keywords = {cs.RO},
 }
 
-@article{garrett_ffrob,
-  author = {Caelan Reed Garrett and Tomas Lozano-Perez and Leslie Pack Kaelbling
-            },
-  title = {FFRob: Leveraging Symbolic Planning for Efficient Task and Motion
-           Planning},
-  abstract = {Mobile manipulation problems involving many objects are
+@Article{garrett_ffrob,
+  author       = {Caelan Reed Garrett and Tomas Lozano-Perez and Leslie Pack Kaelbling},
+  title        = {FFRob: Leveraging Symbolic Planning for Efficient Task and Motion Planning},
+  abstract     = {Mobile manipulation problems involving many objects are
               challenging to solve due to the high dimensionality and
               multi-modality of their hybrid configuration spaces. Planners that
               perform a purely geometric search are prohibitively slow for
@@ -101,14 +99,14 @@
               , we empirically demonstrate FFRob's effectiveness on complex and
               diverse task and motion planning tasks including rearrangement
               planning and navigation among movable objects.},
-  date = {2016-08-03},
-  doi = {10.1177/0278364917739114},
-  eprint = {1608.01335v2},
-  eprintclass = {cs.RO},
-  eprinttype = {arXiv},
-  file = {:ffrob.pdf:PDF;online:http\://arxiv.org/pdf/1608.01335v2:PDF},
+  date         = {2016-08-03},
+  doi          = {10.1177/0278364917739114},
+  eprint       = {1608.01335v2},
+  eprintclass  = {cs.RO},
+  eprinttype   = {arXiv},
+  file         = {:ffrob.pdf:PDF;online:http\://arxiv.org/pdf/1608.01335v2:PDF},
   journaltitle = {The International Journal of Robotics Research (IJRR), 2017},
-  keywords = {cs.RO},
+  keywords     = {cs.RO},
 }
 
 @article{Driess_2020,
@@ -158,20 +156,18 @@
   publisher = {{SAGE} Publications},
 }
 
-@article{Gerkey_2004,
-  author = {Brian P. Gerkey and Maja J. Matari{\'{c}}},
-  title = {A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot
-           Systems},
-  journal = {The International Journal of Robotics Research},
-  year = {2004},
-  volume = {23},
-  number = {9},
-  pages = {939--954},
-  month = {sep},
-  doi = {10.1177/0278364904045564},
-  file = {:formal_analysis_taxonomy_task_allocation_multi.pdf:PDF;:http\:
-          //robotics.stanford.edu/~gerkey/research/final_papers/mrta-taxonomy.pdf:URL
-          },
+@Article{Gerkey_2004,
+  author    = {Brian P. Gerkey and Maja J. Matari{\'{c}}},
+  journal   = {The International Journal of Robotics Research},
+  title     = {A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot Systems},
+  year      = {2004},
+  month     = {sep},
+  number    = {9},
+  pages     = {939--954},
+  volume    = {23},
+  doi       = {10.1177/0278364904045564},
+  file      = {:formal_analysis_taxonomy_task_allocation_multi.pdf:PDF;:http\:
+          //robotics.stanford.edu/~gerkey/research/final_papers/mrta-taxonomy.pdf:URL},
   publisher = {{SAGE} Publications},
 }
 
@@ -423,17 +419,15 @@
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
-@inproceedings{inproceedings,
-  author = {Luna, Ryan and Lahijanian, Morteza and Moll, Mark and Kavraki, Lydia
-            },
-  title = {Optimal and Efficient Stochastic Motion Planning in Partially-Known
-           Environments},
+@InProceedings{inproceedings,
+  author    = {Luna, Ryan and Lahijanian, Morteza and Moll, Mark and Kavraki, Lydia},
   booktitle = {AAAI},
-  year = {2014},
-  volume = {4},
-  month = {07},
-  file = {:optimal_efficient_mp.pdf:PDF},
-  journal = {Proceedings of the National Conference on Artificial Intelligence},
+  title     = {Optimal and Efficient Stochastic Motion Planning in Partially-Known Environments},
+  year      = {2014},
+  month     = {07},
+  volume    = {4},
+  file      = {:optimal_efficient_mp.pdf:PDF},
+  journal   = {Proceedings of the National Conference on Artificial Intelligence},
 }
 
 @article{wang_2021,
@@ -493,13 +487,12 @@
   file = {:iterative_temporal_planning_hybrid_partially_unknown.pdf:PDF},
 }
 
-@article{wang_2018,
-  author = {Yue Wang and Swarat Chaudhuri and Lydia E. Kavraki},
-  title = {Bounded Policy Synthesis for POMDPs with Safe-Reachability Objectives
-           },
-  journal = {AAMAS 2018},
-  year = {2018},
-  abstract = {Planning robust executions under uncertainty is a fundamental
+@Article{wang_2018,
+  author      = {Yue Wang and Swarat Chaudhuri and Lydia E. Kavraki},
+  journal     = {AAMAS 2018},
+  title       = {Bounded Policy Synthesis for POMDPs with Safe-Reachability Objectives},
+  year        = {2018},
+  abstract    = {Planning robust executions under uncertainty is a fundamental
               challenge for building autonomous robots. Partially Observable
               Markov Decision Processes (POMDPs) provide a standard framework for
               modeling uncertainty in many applications. In this work, we study
@@ -525,26 +518,24 @@
               can synthesize policies over large belief spaces with a small
               number of SMT solver calls by focusing on the goal-constrained
               belief space.},
-  date = {2018-01-29},
-  eprint = {1801.09780v2},
+  date        = {2018-01-29},
+  eprint      = {1801.09780v2},
   eprintclass = {cs.RO},
-  eprinttype = {arXiv},
-  file = {:bounded_policy_synthesis_pomdps_safe_reachability.pdf:PDF;online:http
+  eprinttype  = {arXiv},
+  file        = {:bounded_policy_synthesis_pomdps_safe_reachability.pdf:PDF;online:http
           \://arxiv.org/pdf/1801.09780v2:PDF},
-  keywords = {cs.RO, cs.AI},
+  keywords    = {cs.RO, cs.AI},
 }
 
-@incollection{luna_2015,
-  author = {Ryan Luna and Morteza Lahijanian and Mark Moll and Lydia E. Kavraki},
-  title = {Asymptotically Optimal Stochastic Motion Planning with Temporal Goals
-           },
-  booktitle = {Proceedings of the Workshop on the Algorithmic Foundations of
-               Robotics},
+@InCollection{luna_2015,
+  author    = {Ryan Luna and Morteza Lahijanian and Mark Moll and Lydia E. Kavraki},
+  booktitle = {Proceedings of the Workshop on the Algorithmic Foundations of Robotics},
   publisher = {Springer International Publishing},
-  year = {2015},
-  pages = {335--352},
-  doi = {10.1007/978-3-319-16595-0_20},
-  file = {:asymptotically_optimal_mp_temporal_goals.pdf:PDF},
+  title     = {Asymptotically Optimal Stochastic Motion Planning with Temporal Goals},
+  year      = {2015},
+  pages     = {335--352},
+  doi       = {10.1007/978-3-319-16595-0_20},
+  file      = {:asymptotically_optimal_mp_temporal_goals.pdf:PDF},
 }
 
 @article{Dantam_2018,
@@ -760,16 +751,15 @@
   keywords = {pddl+},
 }
 
-@article{sun2022multiagent,
-  author = {Dawei Sun and Jingkai Chen and Sayan Mitra and Chuchu Fan},
-  title = {Multi-agent Motion Planning from Signal Temporal Logic Specifications
-           },
-  journal = {IEEE Robotics and Automation Letters (RA-L)},
-  year = {2022},
+@Article{sun2022multiagent,
+  author        = {Dawei Sun and Jingkai Chen and Sayan Mitra and Chuchu Fan},
+  journal       = {IEEE Robotics and Automation Letters (RA-L)},
+  title         = {Multi-agent Motion Planning from Signal Temporal Logic Specifications},
+  year          = {2022},
   archiveprefix = {arXiv},
-  eprint = {2201.05247},
-  file = {:multi_mp_temporal_logic.pdf:PDF},
-  primaryclass = {cs.RO},
+  eprint        = {2201.05247},
+  file          = {:multi_mp_temporal_logic.pdf:PDF},
+  primaryclass  = {cs.RO},
 }
 
 @inproceedings{Denenberg2021,
@@ -951,15 +941,12 @@
   url = {https://www.aaai.org/ocs/index.php/WS/AAAIW16/paper/view/12589/12427},
 }
 
-@article{garrett_pddlstream,
-  author = {Caelan Reed Garrett and Tomás Lozano-Pérez and Leslie Pack Kaelbling
-            },
-  title = {PDDLStream: Integrating Symbolic Planners and Blackbox Samplers via
-           Optimistic Adaptive Planning},
-  journal = {nternational Conference on Automated Planning and Scheduling (ICAPS
-             ) 2020},
-  year = {2020},
-  abstract = {Many planning applications involve complex relationships defined
+@Article{garrett_pddlstream,
+  author      = {Caelan Reed Garrett and Tomás Lozano-Pérez and Leslie Pack Kaelbling},
+  journal     = {nternational Conference on Automated Planning and Scheduling (ICAPS ) 2020},
+  title       = {PDDLStream: Integrating Symbolic Planners and Blackbox Samplers via Optimistic Adaptive Planning},
+  year        = {2020},
+  abstract    = {Many planning applications involve complex relationships defined
               on high-dimensional, continuous variables. For example, robotic
               manipulation requires planning with kinematic, collision,
               visibility, and motion constraints involving robot configurations,
@@ -976,12 +963,12 @@
               produce low-cost solutions. We evaluate our algorithms on three
               simulated robotic planning domains as well as several real-world
               robotic tasks.},
-  date = {2018-02-23},
-  eprint = {1802.08705v5},
+  date        = {2018-02-23},
+  eprint      = {1802.08705v5},
   eprintclass = {cs.AI},
-  eprinttype = {arXiv},
-  file = {:pddlstream.pdf:PDF;online:http\://arxiv.org/pdf/1802.08705v5:PDF},
-  keywords = {cs.AI, cs.RO},
+  eprinttype  = {arXiv},
+  file        = {:pddlstream.pdf:PDF;online:http\://arxiv.org/pdf/1802.08705v5:PDF},
+  keywords    = {cs.AI, cs.RO},
 }
 
 @article{Hang_2019,
@@ -1134,18 +1121,15 @@
   url = {https://ojs.aaai.org/index.php/ICAPS/article/view/13403},
 }
 
-@inproceedings{Coles2011,
-  author = {Coles, Amanda and Coles, Andrew and Clark, Allan and Gilmore,
-            Stephen},
-  booktitle = {Proceedings of the Twenty-First International Conference on
-               International Conference on Automated Planning and Scheduling},
-  title = {Cost-Sensitive Concurrent Planning under Duration Uncertainty for
-           Service-Level Agreements},
-  year = {2011},
-  pages = {34–41},
+@InProceedings{Coles2011,
+  author    = {Coles, Amanda and Coles, Andrew and Clark, Allan and Gilmore, Stephen},
+  booktitle = {Proceedings of the Twenty-First International Conference on International Conference on Automated Planning and Scheduling},
+  title     = {Cost-Sensitive Concurrent Planning under Duration Uncertainty for Service-Level Agreements},
+  year      = {2011},
+  pages     = {34–41},
   publisher = {AAAI Press},
-  series = {ICAPS'11},
-  abstract = {This paper brings together work in stochastic modelling, using the
+  series    = {ICAPS'11},
+  abstract  = {This paper brings together work in stochastic modelling, using the
               process algebra PEPA, and work in automated planning. Stochastic
               modelling has been concerned with verification of system
               performance metrics for some time: given a model of a system,
@@ -1161,13 +1145,12 @@
               this end, we present a domain-independent planner for planning
               problems with action costs and stochastic durations, and show how
               this can be used to solve both traditional planning domains, and
-              within the framework of configuring a larger process algebra model.
-              },
-  comment = {Supports cost optimization},
-  file = {:popf2.pdf:PDF},
-  keywords = {temporal, task, planning, popf2},
-  location = {Freiburg, Germany},
-  numpages = {8},
+              within the framework of configuring a larger process algebra model.},
+  comment   = {Supports cost optimization},
+  file      = {:popf2.pdf:PDF},
+  keywords  = {temporal, task, planning, popf2},
+  location  = {Freiburg, Germany},
+  numpages  = {8},
 }
 
 @article{Coles2012,
@@ -1608,22 +1591,20 @@
   keywords = {reinforcement learning, multi-armed bandit, contextual bandit},
 }
 
-@book{Sutton2018,
-  author = {Sutton, Richard S. and Barto, Andrew G.},
+@Book{Sutton2018,
+  author    = {Sutton, Richard S. and Barto, Andrew G.},
   publisher = {The MIT Press},
-  title = {Reinforcement Learning: An Introduction},
-  year = {2018},
-  edition = {Second},
-  added-at = {2019-07-13T10:11:53.000+0200},
-  biburl = {
-            https://www.bibsonomy.org/bibtex/2f46601cf8b13d39d1378af0d79438b12/lanteunis
-            },
-  comment = {Chapter 4 has a good summary of general thompson sampling},
+  title     = {Reinforcement Learning: An Introduction},
+  year      = {2018},
+  edition   = {Second},
+  added-at  = {2019-07-13T10:11:53.000+0200},
+  biburl    = {https://www.bibsonomy.org/bibtex/2f46601cf8b13d39d1378af0d79438b12/lanteunis},
+  comment   = {Chapter 4 has a good summary of general thompson sampling},
   interhash = {ac6b144aaec1819919a2fba9f705c852},
   intrahash = {f46601cf8b13d39d1378af0d79438b12},
-  keywords = {reinforcement learning, multi-armed bandit},
+  keywords  = {reinforcement learning, multi-armed bandit},
   timestamp = {2019-07-13T10:11:53.000+0200},
-  url = {http://incompleteideas.net/book/the-book-2nd.html},
+  url       = {http://incompleteideas.net/book/the-book-2nd.html},
 }
 
 @article{Karaman2011,
@@ -1909,16 +1890,15 @@
   urldate = {2022-04-17},
 }
 
-@article{Furtado2017,
-  author = {Maria Gabriela S. Furtado and Pedro Munari and Reinaldo Morabito},
-  journal = {Operations Research Letters},
-  title = {Pickup and delivery problem with time windows: A new compact
-           two-index formulation},
-  year = {2017},
-  issn = {0167-6377},
-  number = {4},
-  pages = {334-341},
-  volume = {45},
+@Article{Furtado2017,
+  author   = {Maria Gabriela S. Furtado and Pedro Munari and Reinaldo Morabito},
+  journal  = {Operations Research Letters},
+  title    = {Pickup and delivery problem with time windows: A new compact two-index formulation},
+  year     = {2017},
+  issn     = {0167-6377},
+  number   = {4},
+  pages    = {334-341},
+  volume   = {45},
   abstract = {We propose a formulation for the pickup and delivery problem with
               time windows, based on a novel modeling strategy that allows the
               assignment of vehicles to routes explicitly in two-index flow
@@ -1926,14 +1906,11 @@
               benefit OR practitioners interested in solving the problem by
               general-purpose optimization software. Computational experiments
               indicate that the proposed formulation has interesting features and
-              best overall performance in relation to other compact formulations.
-              },
-  doi = {https://doi.org/10.1016/j.orl.2017.04.013},
-  file = {:pdp_tw_two_index.pdf:PDF},
-  keywords = {Pickup and delivery, Time windows, Two-index formulation,
-              Precedence constraints, Compact formulation, mobile, base,
-              scheduling, pdp},
-  url = {https://www.sciencedirect.com/science/article/pii/S0167637717302651},
+              best overall performance in relation to other compact formulations.},
+  doi      = {https://doi.org/10.1016/j.orl.2017.04.013},
+  file     = {:pdp_tw_two_index.pdf:PDF},
+  keywords = {Pickup and delivery, Time windows, Two-index formulation, Precedence constraints, Compact formulation, mobile, base, scheduling, pdp},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0167637717302651},
 }
 
 @article{Ropke2007,
@@ -2106,15 +2083,13 @@
   keywords = {motion, planning, mobile, base},
 }
 
-@inproceedings{Sprunk2014,
-  author = {Sprunk, Christoph and Rowekamper, Jorg and Spinello, Luciano and
-            Tipaldi, Gian Diego and Burgard, Wolfram and Jalobeanu, Mihai and
-            Parent, Gershon},
+@InProceedings{Sprunk2014,
+  author    = {Sprunk, Christoph and Rowekamper, Jorg and Spinello, Luciano and Tipaldi, Gian Diego and Burgard, Wolfram and Jalobeanu, Mihai and Parent, Gershon},
   booktitle = {International Symposium on Experimental Robotics},
-  title = {An Experimental Protocol for Benchmarking Robotic Indoor Navigation},
-  year = {2014},
-  month = {June},
-  abstract = {Robot navigation is one of the most studied problems in robotics
+  title     = {An Experimental Protocol for Benchmarking Robotic Indoor Navigation},
+  year      = {2014},
+  month     = {June},
+  abstract  = {Robot navigation is one of the most studied problems in robotics
               and the key capability for robot autonomy. Navigation techniques
               have become more and more reliable, but evaluation mainly focused
               on individual navigation components (i.e., mapping, localization,
@@ -2128,11 +2103,9 @@
               navigation systems at different experimentation sites. We present
               applications of our protocol in experiments in two different
               research groups, showing the usefulness of the benchmark.},
-  file = {:experimental_protocal_benchmarking_indoor.pdf:PDF},
-  keywords = {benchmarks},
-  url = {
-         https://www.microsoft.com/en-us/research/publication/an-experimental-protocol-for-benchmarking-robotic-indoor-navigation/
-         },
+  file      = {:experimental_protocal_benchmarking_indoor.pdf:PDF},
+  keywords  = {benchmarks},
+  url       = {https://www.microsoft.com/en-us/research/publication/an-experimental-protocol-for-benchmarking-robotic-indoor-navigation/},
 }
 
 @article{Sturtevant2012,
@@ -2213,12 +2186,11 @@
   keywords = {motion, planning, mobile, base},
 }
 
-@inproceedings{Ghallab1998,
-  author = {Ghallab, M. and Howe, A. and Knoblock, C. and Mcdermott, D. and Ram,
-            A. and Veloso, M. and Weld, D. and Wilkins, D.},
-  title = {{PDDL---The Planning Domain Definition Language}},
-  year = {1998},
-  abstract = {{This manual describes the syntax of PDDL, the Planning Domain
+@InProceedings{Ghallab1998,
+  author               = {Ghallab, M. and Howe, A. and Knoblock, C. and Mcdermott, D. and Ram, A. and Veloso, M. and Weld, D. and Wilkins, D.},
+  title                = {{PDDL---The Planning Domain Definition Language}},
+  year                 = {1998},
+  abstract             = {{This manual describes the syntax of PDDL, the Planning Domain
               Definition Language, the problem-specification language for the
               AIPS-98 planning competition. The language has roughly the the
               expressiveness of Pednault's ADL [10] for propositions, and roughly
@@ -2226,33 +2198,30 @@
               encourage empirical evaluation of planner performance, and
               development of standard sets of problems all in comparable
               notations. 1 Introduction This manual describes the syntax,...}},
-  added-at = {2011-05-04T16:04:17.000+0200},
-  biburl = {
-            https://www.bibsonomy.org/bibtex/25c6a68d39689f821990388098e7deccc/baisemain
-            },
+  added-at             = {2011-05-04T16:04:17.000+0200},
+  biburl               = {https://www.bibsonomy.org/bibtex/25c6a68d39689f821990388098e7deccc/baisemain},
   citeulike-article-id = {1297527},
-  citeulike-linkout-0 = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=
-                         10.1.1.37.212},
-  file = {:pddl.pdf:PDF},
-  interhash = {79d5e5bbc06e74f83bebdbb00b1b61e6},
-  intrahash = {5c6a68d39689f821990388098e7deccc},
-  keywords = {pddl, planning},
-  posted-at = {2007-05-15 18:01:28},
-  priority = {2},
-  timestamp = {2011-05-04T16:04:38.000+0200},
-  url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.212},
+  citeulike-linkout-0  = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi= 10.1.1.37.212},
+  file                 = {:pddl.pdf:PDF},
+  interhash            = {79d5e5bbc06e74f83bebdbb00b1b61e6},
+  intrahash            = {5c6a68d39689f821990388098e7deccc},
+  keywords             = {pddl, planning},
+  posted-at            = {2007-05-15 18:01:28},
+  priority             = {2},
+  timestamp            = {2011-05-04T16:04:38.000+0200},
+  url                  = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.212},
 }
 
-@article{10.1093/logcom/4.5.467,
-  author = {Pednault, Edwin P. D.},
-  journal = {Journal of Logic and Computation},
-  title = {{ADL and the State-Transition Model of Action}},
-  year = {1994},
-  issn = {0955-792X},
-  month = {10},
-  number = {5},
-  pages = {467-512},
-  volume = {4},
+@Article{10.1093/logcom/4.5.467,
+  author   = {Pednault, Edwin P. D.},
+  journal  = {Journal of Logic and Computation},
+  title    = {{ADL and the State-Transition Model of Action}},
+  year     = {1994},
+  issn     = {0955-792X},
+  month    = {10},
+  number   = {5},
+  pages    = {467-512},
+  volume   = {4},
   abstract = {{This paper provides a complete presentation of the syntax,
               semantics, and some of the properties of ADL, a formalism for
               representing and reasoning about the effects of actions. ADL is
@@ -2285,13 +2254,11 @@
               interesting in its own right, since it incorporates a solution to
               the frame problem that does not explicitly rely on circumscription.
               This solution is derived from the semantics of ADL.}},
-  doi = {10.1093/logcom/4.5.467},
-  eprint = {
-            https://academic.oup.com/logcom/article-pdf/4/5/467/6322988/4-5-467.pdf
-            },
-  file = {:adl_state_transition.pdf:PDF},
+  doi      = {10.1093/logcom/4.5.467},
+  eprint   = {https://academic.oup.com/logcom/article-pdf/4/5/467/6322988/4-5-467.pdf},
+  file     = {:adl_state_transition.pdf:PDF},
   keywords = {pddl-related, adl, transition model},
-  url = {https://doi.org/10.1093/logcom/4.5.467},
+  url      = {https://doi.org/10.1093/logcom/4.5.467},
 }
 
 @article{FIKES1971189,
@@ -2320,15 +2287,30 @@
   url = {https://www.sciencedirect.com/science/article/pii/0004370271900105},
 }
 
-@book{ghallab_nau_traverso_2016,
-  author = {Ghallab, Malik and Nau, Dana and Traverso, Paolo},
+@Book{Ghallab2016,
+  author    = {Ghallab, Malik and Nau, Dana and Traverso, Paolo},
   publisher = {Cambridge University Press},
-  title = {Automated Planning and Acting},
-  year = {2016},
-  doi = {10.1017/CBO9781139583923},
-  file = {:automated_planning_and_acting.pdf:PDF},
-  keywords = {automated planning, ai planning},
-  place = {Cambridge},
+  title     = {Automated Planning and Acting},
+  year      = {2016},
+  doi       = {10.1017/CBO9781139583923},
+  file      = {:automated_planning_and_acting.pdf:PDF},
+  keywords  = {automated planning, ai planning},
+  place     = {Cambridge},
+}
+
+@Article{Blum1997,
+  author   = {Avrim L. Blum and Merrick L. Furst},
+  journal  = {Artificial Intelligence},
+  title    = {Fast planning through planning graph analysis},
+  year     = {1997},
+  issn     = {0004-3702},
+  number   = {1},
+  pages    = {281-300},
+  volume   = {90},
+  abstract = {We introduce a new approach to planning in STRIPS-like domains based on constructing and analyzing a compact structure we call a planning graph. We describe a new planner, Graphplan, that uses this paradigm. Graphplan always returns a shortest possible partial-order plan, or states that no valid plan exists. We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems. We also give empirical evidence that the plans produced by Graphplan are quite sensible. Since searches made by this approach are fundamentally different from the searches of other common planning methods, they provide a new perspective on the planning problem.},
+  doi      = {https://doi.org/10.1016/S0004-3702(96)00047-1},
+  keywords = {General purpose planning, STRIPS planning, Graph algorithms, Planning graph analysis, automated planning, ai planning},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0004370296000471},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
